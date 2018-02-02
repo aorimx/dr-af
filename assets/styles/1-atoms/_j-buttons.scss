@@ -1,7 +1,7 @@
 button, .btn-solid {
   position: relative;
   width: 100%;
-  max-width: 320px;
+  max-width: 344px;
   // height: fit-content;
   padding-top: 16px;
   padding-right: 24px;
@@ -53,7 +53,7 @@ button, .btn-solid {
   //Primary
   &.bg-color-primary {
     &:hover{
-      background-color: darken($color-primary, 10);
+      background-color: darken($text-default, 10);
     }
   }
   //Secondary
@@ -103,12 +103,12 @@ button, .btn-solid {
   // The part of the Button Colors Outline
   //Primary
   &.bg-color-primary {
-    border: solid 2px $color-primary;
-    color: $color-primary;
+    border: solid 2px $text-default;
+    color: $text-default;
     &:hover,{
-      background-color: $color-primary;
+      background-color: $text-default;
       color: $color-inverse;
-      border: solid 2px $color-primary;
+      border: solid 2px $text-default;
       color: $color-inverse;
     }
   }

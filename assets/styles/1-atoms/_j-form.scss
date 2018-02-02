@@ -44,7 +44,7 @@ textarea, select {
   text-align: left;
   font-size: 16px;
   font-weight: 300;
-  color: $color-primary;
+  color: $text-default;
   -webkit-transition: border-color 400ms ease-in-out;
   transition: border-color 400ms ease-in-out;
   &:focus {

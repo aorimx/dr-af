@@ -1,0 +1,103 @@
+.biografia-container{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   z-index: 5;
+   margin-top: 80px;
+
+   .biografia-content{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      @include mobile{
+         flex-direction: column;     
+      }
+
+      .bio-title-container{
+         width: 40%;
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
+         @include mobile{
+            width: 100%;
+            align-items: center;
+         }
+
+         .bio-h2{
+            display: flex;
+            justify-content: center;
+            align-items:center; 
+            width: auto;
+            font-family: 'Lato-Light';
+            color: #fff;
+            font-size: 26px;
+            letter-spacing: 4px;
+            margin-bottom: 48px;
+            padding: 16px 48px 12px 48px;
+            background: $blue;
+            @include mobile{
+               
+            }
+         }
+      }
+
+      .bio-info{
+         width: 59%;
+         display: flex;
+         flex-direction: column;
+         text-align: left;
+         @include mobile{
+            width: 100%;
+            margin-top: 32px;  
+         }
+
+         .p-info-gray{
+            color: $gray-text;
+         }
+         p{
+            font-size: 14px;
+         }
+
+         button{
+            align-self: flex-end;
+            width: auto;
+            font-family: Montserrat-Light;
+            letter-spacing: 3px;
+            color: $blue-cyan;
+            background: #fff;
+            border-radius: 0;
+            border: 2px solid $blue-cyan;
+            padding: 8px 16px 6px 16px;
+            transition: all .2s ease-in-out;
+         }
+         button:hover{
+            color: $white;
+            background: $blue-cyan;
+            box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+            transition: all .2s ease-in-out;
+         }
+      }
+   }
+   .biografia-images{
+      width: 100%;
+      margin-top: 32px;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+
+      @include mobile{
+         flex-direction: column;
+      }
+
+      img{
+         width: 32.7%;
+         height: auto;
+         @include mobile{
+            width: 100%;
+         }
+      }
+   }
+}

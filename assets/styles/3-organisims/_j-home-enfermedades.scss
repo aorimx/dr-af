@@ -1,0 +1,99 @@
+.home-enfermedades-container{
+   display: flex;
+   flex-wrap: nowrap;
+   width: 100%;
+   height: auto;
+   margin-top: 80px;
+   @include tablet{
+      flex-direction: column;
+      padding-left: 32px;
+   }
+   @include mobile{
+      flex-direction: column;
+      padding-left: 0;
+   }
+
+   .home-enfermedades-info{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 49%;
+      height: auto;
+      @include tablet{
+         align-items: center;
+         width: 95%;
+      }
+      @include mobile{
+         width: 100%;
+      }
+
+      .enfermedades-h2{
+         display: flex;
+         justify-content: center;
+         align-items:center; 
+         width: auto;
+         font-family: 'Lato-Light';
+         color: #fff;
+         font-size: 26px;
+         letter-spacing: 4px;
+         margin-bottom: 48px;
+         padding: 16px 48px 12px 48px;
+         background: $blue-cyan;
+         @include mobile{
+            font-size: 23px;
+            letter-spacing: 3px;
+            padding: 16px 32px 12px 32px;
+         }
+      }
+      p{
+         align-self: flex-start;
+      }
+      button{
+         width: auto;
+         font-family: Montserrat-Light;
+         letter-spacing: 3px;
+         color: $blue-cyan;
+         margin-top: 24px;
+         padding: 8px 16px 6px 16px;
+         background: #fff;
+         border-radius: 0;
+         border: 2px solid $blue-cyan;
+         transition: all .2s ease-in-out;
+      }
+      button:hover{
+         color: $white;
+         background: $blue-cyan;
+         box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+         transition: all .2s ease-in-out;
+      }
+   }
+   .home-enf-img{
+      position: relative;
+      display: flex;
+      width: 51%;
+      height: auto;
+      @include tablet{
+         width: 100%;
+      }
+      @include mobile{
+         width: 100%;
+      }
+
+      img{
+         position: absolute;
+         top: -112px;
+         width: 100%;
+         height: auto;
+         @include tablet{
+            position: relative;
+            top: 24px;
+            width: auto;
+            height: auto;
+         }
+         @include mobile{
+            left: -24px;
+         }
+
+      }
+   }
+}

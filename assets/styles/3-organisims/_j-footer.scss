@@ -1,84 +1,333 @@
 footer {
-  background-color: $gray-dark;
-  .j-wrap {
-    flex-direction: column;
-    .contact-ways {
-      display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 136px;
+  @include tablet{
+    margin-top: 80px;
+  }
+
+  .ft-section-up{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 1232px;
+    @include tablet{
+      flex-wrap: wrap;
       justify-content: space-around;
-      align-items: flex-start;
-      margin-top: 64px;
-      h3 {
-        color: $color-inverse;
+      padding: 0 24px;
+	 }
+	 @include mobile{
+		 flex-direction: column;
+		 flex-wrap: nowrap;
+		 justify-content: flex-start;
+		 align-items: center;
+	 }
+
+    img{
+      width: auto;
+      height: 160px;
+      @include tablet{
+        margin-bottom: 48px;
+		}
+		@include mobile{
+			width: 216px;
+			height: auto;
+		 }
+    }
+
+    .footer-list{
+      display: flex;
+      flex-direction: column;
+      width: 18%;
+      height: auto;
+		margin-left: 8px;
+		@include mobile{
+			text-align: center;
+			margin-bottom: 16px;
+			margin-left: 0;
+		}
+
+      h3{
+        font-size: 22px;
+        font-family: Montserrat-Light;
+        font-weight: normal;
+        letter-spacing: 2px;
+        color: $gray-text;
+		  margin-bottom: 16px;
+		  @include mobile{
+				margin-bottom: 0;
+			}
       }
-      hr {
-        width: 80px;
-        margin-bottom: 32px;
-      }
-      p {
-        color: $color-inverse;
-      }
-      a {
-        color: $color-inverse;
-        &:hover {
-          color: darken( $color-inverse, 20);
-        }
-      }
-      @media screen and (max-width: 768px){
-        flex-direction: column;
-      }
-      .footer-unit {
-        width: 33.33%;
-        @media screen and (max-width: 768px){
-          width: 100%;
-        }
-      }
-      .social-networks {
-        text-align: center;
-        ul {
-          display: flex;
-          max-width: 160px;
-          margin: 0 auto;
-          list-style: none;
-          justify-content: space-around;
-          margin-top: 32px;
-          padding: 0;
-          li {
-            a {
-              img {
-                height: 32px;
-              }
-              &:hover {
-                opacity: .75;
-              }
-            }
-          }
-        }
-      }
-      .footer-contact {
-        text-align: center;
-        p {
-          a{
-            &:first-child {
-              font-size: 24px;
-            }
-          }
-        }
-      }
-      .location {
-        text-align: center;
+      a{
+        font-size: 13px;
+        color: #000000;
+        margin-bottom: 8px;
       }
     }
-    .footer-bottom {
-      text-align: center;
-      margin: 64px 0;
-      svg {
-        height: 56px;
-        fill: #fff;
-        margin-bottom: 16px;
+    .ft-l-1{
+      margin-left: 128px;
+      @include tablet{
+        margin-left: 0;
       }
-      p {
-        color: $color-inverse;
-        margin-bottom: 0;
+    }
+    .footer-list-2{
+      display: flex;
+      flex-direction: column;
+      width: 21%;
+		height: auto;
+		@include mobile{
+			text-align: center;
+			margin-bottom: 16px;
+		}
+
+      h3{
+        font-size: 22px;
+        font-family: Montserrat-Light;
+        font-weight: normal;
+        letter-spacing: 2px;
+        color: $gray-text;
+		  margin-bottom: 16px;
+		  @include mobile{
+			  margin-bottom: 0;
+		  }
+      }
+      a{
+        font-size: 13px;
+        color: #000000;
+        margin-bottom: 8px;
+      }
+    }
+    .list-1{
+      @include tablet{
+        width: 26%;
+		}
+		@include mobile{
+			width: 100%;
+		 }
+    }
+    .list-2{
+      @include tablet{
+        width: 20%;
+		}
+		@include mobile{
+			width: 100%;
+		 }
+    }
+    .list-3{
+      @include tablet{
+        width: 31%;
+		}
+		@include mobile{
+			width: 100%;
+		 }
+    }
+    .list-4{
+      @include tablet{
+        width: 31%;
+		}
+		@include mobile{
+			width: 100%;
+		 }
+    }
+  }
+
+  .ft-section-down{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    padding-top: 64px;
+    background: $blue;
+    @include tablet{
+   	padding: 0 24px;
+	 }
+	 @include mobile{
+		 margin-top: 32px;
+	 }
+    
+    .ft-inner{
+      display: flex;
+      flex-direction: column;
+      max-width: 1232px;
+      width: 100%;
+      height: auto;
+
+      .ft-title-content{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        @include tablet{
+          flex-direction: column;
+          justify-content: flex-start;
+			 align-items: center;
+			 margin-top: 24px;
+		  }
+		  @include mobile{
+			  text-align: center;
+		  }
+        p{
+          color: #fff;
+          font-family: Montserrat-Light;
+          font-size: 25px;
+			 letter-spacing: 3px;
+			 @include mobile {
+				font-size: 17px;
+    			letter-spacing: 1px;
+			 }
+        }
+
+        .dgp-content{
+          display: flex;
+          width: auto;
+          height: 24px;;
+          padding: 0 16px 0 16px;
+          background: $red;
+          color: #fff;
+
+          .dgp-text{
+            font-family: Lato-Light;
+            font-weight: bold;
+            font-size: 15px;
+            color: #fff;
+            margin-bottom: 0;
+          }
+          .dgp-number{
+            font-family: Lato-Light;
+            font-size: 15px;
+            color: #fff;
+            margin-bottom: 0;
+          }
+        }
+      }
+      .ft-adress-content{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 100%;
+		  height: auto;
+		  @include tablet{
+			  flex-direction: column;
+			  justify-content: flex-start;
+			  align-items: center;
+			  margin-top: 24px;
+		  }
+
+        .ft-adress-inner{
+          display: flex;
+          flex-wrap: nowrap;
+          justify-content: space-between;
+          width: 65%;
+          height: auto;
+          font-family: Montserrat-Light;
+			 font-size: 12px;
+			 @include tablet{
+				 align-items: center;
+				 text-align: center;
+				 width: 100%;
+			 }
+			 @include mobile{
+				 flex-direction: column;
+			 }
+
+          .adress{
+            display: flex;
+            flex-direction: column;
+
+            p{
+              color: #fff;
+            }
+          }
+          .telefonos{
+            display: flex;
+            flex-direction: column;
+
+            p{
+              color: #fff;
+              a{
+                color: #fff;
+                transition: all .2s ease-in-out;
+              }
+              a:hover{
+                color: $red;
+                transition: all .2s ease-in-out;
+              }
+            }
+            .urgencias{
+              display: flex;
+              flex-wrap: nowrap;
+              .p-urgencias{
+                letter-spacing: 3px;
+                font-weight: bold;
+                color: #fff;
+              }
+
+              p{
+                color: #fff;
+              }
+            }
+          }
+        }
+        .redes{
+          display: flex;
+          justify-content: space-between;
+          align-self: center;
+          width: 5%;
+			 @include tablet{
+				 width: 10%;
+			 }
+			 @include mobile{
+				 width: 20%;
+				margin-top: 8px;
+			 }
+         a{
+          img{
+            width: auto;
+				height: 20px;
+				@include mobile{
+					width: auto;
+					height: 20px;
+				}
+          }
+         }
+        }
+      }
+      .ft-copyright-content{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 16px;
+        padding-top: 48px;
+        padding-bottom: 32px;
+        border-top: 1px solid #fff;
+		  @include tablet{
+			  text-align: center;
+		  }
+		  @include mobile{
+			  flex-direction: column;
+			  padding-top: 32px;
+			  padding-bottom: 24px;
+		  }
+        p{
+          font-family: Montserrat-Light;
+          font-size: 12px;
+          color: #fff;
+
+          a{
+            font-family: Montserrat-Light;
+            font-size: 12px;
+            color: #fff;
+            transition: all .2s ease-in-out;
+          }
+          a:hover{
+            color: $red;
+            transition: all .2s ease-in-out;
+          }
+        }
       }
     }
   }
