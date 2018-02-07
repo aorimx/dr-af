@@ -1,0 +1,110 @@
+.services-container{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   z-index: 5;
+   margin-top: $space-5 * 2;
+
+
+   .services-content{
+  
+    
+
+      .services-title-content{
+         width: 40%;
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
+         @include mobile{
+            width: 100%;
+            align-items: center;
+         }
+
+         .services-h2{
+            display: flex;
+            justify-content: center;
+            align-items:center; 
+            width: auto;
+            font-family: 'Lato-Light';
+            color: #fff;
+            font-size: 26px;
+            letter-spacing: 4px;
+            margin-bottom: 48px;
+            padding: 16px 48px 12px 48px;
+            background: $blue;
+            @include mobile{
+               
+            }
+         }
+      }  
+
+      .service{
+         position: relative;
+         display: flex;
+         width: 100%;
+         margin-top: 88px;
+         .line{
+            display: flex;
+            width: 45%;
+            padding-right: $space-5 * 2;
+            flex-direction: column;
+            @include mobile{
+               display: none;
+            }
+
+            .p-space{
+               margin-bottom: 0;
+            }
+            .hr-space{
+               margin-top: 0;
+            }
+
+         }
+
+         .info{
+            display: flex;
+            flex-direction: column;
+            width: 55%;
+            height: auto;
+            justify-content: space-between;
+            text-transform: uppercase;
+
+            font-family: Montserrat-Light;
+            font-weight: normal;
+            letter-spacing: 2px;
+
+            @include mobile{
+               align-items: center;
+               width: 100%;
+               justify-content: center;
+            }
+
+
+            //p{
+              // font-size: 22px;
+               .p{
+                  &-info{
+                     color: $gray-text;
+                     font-family: Montserrat-Regular;
+                     font-size: 14px;
+                  }
+                  &-info-1{
+                     color: $red;
+                     margin-bottom: 0px;
+                  }
+                  &-info-2{
+                     color:$blue;
+                     margin-bottom: $space-5;
+                  }
+               }
+            //}
+            
+
+
+         }
+      }
+
+      
+   }
+}

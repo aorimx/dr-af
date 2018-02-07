@@ -1729,4 +1729,221 @@ footer {
           .main-contact-content .information-content .p-img-left img {
             margin-right: 0; } }
 
+.services-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  z-index: 5;
+  margin-top: 80px; }
+  .services-container .services-content .services-title-content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+    @media screen and (max-width: 600px) {
+      .services-container .services-content .services-title-content {
+        width: 100%;
+        align-items: center; } }
+    .services-container .services-content .services-title-content .services-h2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: auto;
+      font-family: 'Lato-Light';
+      color: #fff;
+      font-size: 26px;
+      letter-spacing: 4px;
+      margin-bottom: 48px;
+      padding: 16px 48px 12px 48px;
+      background: #126bf8; }
+  .services-container .services-content .service {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 88px; }
+    .services-container .services-content .service .line {
+      display: flex;
+      width: 45%;
+      padding-right: 80px;
+      flex-direction: column; }
+      @media screen and (max-width: 600px) {
+        .services-container .services-content .service .line {
+          display: none; } }
+      .services-container .services-content .service .line .p-space {
+        margin-bottom: 0; }
+      .services-container .services-content .service .line .hr-space {
+        margin-top: 0; }
+    .services-container .services-content .service .info {
+      display: flex;
+      flex-direction: column;
+      width: 55%;
+      height: auto;
+      justify-content: space-between;
+      text-transform: uppercase;
+      font-family: Montserrat-Light;
+      font-weight: normal;
+      letter-spacing: 2px; }
+      @media screen and (max-width: 600px) {
+        .services-container .services-content .service .info {
+          align-items: center;
+          width: 100%;
+          justify-content: center; } }
+      .services-container .services-content .service .info .p-info {
+        color: #808080;
+        font-family: Montserrat-Regular;
+        font-size: 14px; }
+      .services-container .services-content .service .info .p-info-1 {
+        color: #ef2222;
+        margin-bottom: 0px; }
+      .services-container .services-content .service .info .p-info-2 {
+        color: #126bf8;
+        margin-bottom: 40px; }
+
+.illness-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  z-index: 5; }
+  .illness-container .illness-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 32px; }
+    .illness-container .illness-content .illness {
+      position: relative;
+      display: flex;
+      width: 100%; }
+      @media screen and (max-width: 600px) {
+        .illness-container .illness-content .illness {
+          flex-direction: column; } }
+      .illness-container .illness-content .illness .left-side {
+        display: flex;
+        width: 65%;
+        padding-right: 40px;
+        flex-direction: column; }
+        @media screen and (max-width: 600px) {
+          .illness-container .illness-content .illness .left-side {
+            width: 100%;
+            padding-right: 0; } }
+      .illness-container .illness-content .illness .right-side {
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        height: auto;
+        padding-left: 40px; }
+        @media screen and (max-width: 600px) {
+          .illness-container .illness-content .illness .right-side {
+            width: 100%;
+            padding-left: 0; } }
+      .illness-container .illness-content .illness .title-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; }
+        @media screen and (max-width: 600px) {
+          .illness-container .illness-content .illness .title-content {
+            width: 100%;
+            align-items: center; } }
+        .illness-container .illness-content .illness .title-content .p-h2 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          font-family: 'Lato-Light';
+          color: #fff;
+          font-size: 26px;
+          letter-spacing: 4px;
+          margin-bottom: 48px;
+          padding: 16px 48px 12px 48px;
+          background: #126bf8; }
+          @media screen and (max-width: 900px) {
+            .illness-container .illness-content .illness .title-content .p-h2 {
+              font-size: 1rem;
+              width: 100%; } }
+      .illness-container .illness-content .illness .date {
+        display: flex;
+        align-self: flex-end; }
+      .illness-container .illness-content .illness .info {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        font-size: 40px;
+        font-family: Montserrat-Light;
+        font-weight: normal;
+        letter-spacing: 2px;
+        align-self: flex-start; }
+        @media screen and (max-width: 600px) {
+          .illness-container .illness-content .illness .info {
+            width: 100%; } }
+        .illness-container .illness-content .illness .info p {
+          font-family: Montserrat-Regular;
+          font-size: 14px; }
+          .illness-container .illness-content .illness .info p.p-info-1 {
+            color: #ef2222;
+            margin-bottom: 0px;
+            text-transform: uppercase;
+            font-size: 32px;
+            font-family: Montserrat-Light; }
+          .illness-container .illness-content .illness .info p.p-info-2 {
+            color: #126bf8;
+            margin-bottom: 0px;
+            text-transform: uppercase;
+            font-size: 32px;
+            font-family: Montserrat-Light; }
+          .illness-container .illness-content .illness .info p.p-info-3 {
+            margin-top: 24px;
+            margin-bottom: 24px;
+            color: #126bf8;
+            font-size: 14px;
+            font-family: Montserrat-Light; }
+          .illness-container .illness-content .illness .info p.p-info-5 {
+            margin-top: 24px;
+            margin-bottom: 24px;
+            color: #808080;
+            font-size: 14px;
+            font-family: Montserrat-Light; }
+          .illness-container .illness-content .illness .info p.p-space {
+            font-size: 32px;
+            margin-bottom: 0;
+            font-family: Montserrat-Light; }
+        .illness-container .illness-content .illness .info ul {
+          font-size: 14px;
+          padding-left: 12px; }
+          .illness-container .illness-content .illness .info ul li {
+            font-family: Montserrat-Regular;
+            padding-left: 12px;
+            margin-bottom: 16px; }
+        .illness-container .illness-content .illness .info .hr-space {
+          margin-top: 0;
+          margin-bottom: 80px; }
+      .illness-container .illness-content .illness .quote {
+        font-size: 12px; }
+        .illness-container .illness-content .illness .quote div.div-quote-img {
+          margin-bottom: 0px; }
+          .illness-container .illness-content .illness .quote div.div-quote-img img {
+            margin-bottom: 0px; }
+        .illness-container .illness-content .illness .quote p.p-quote-main {
+          color: #808080; }
+        .illness-container .illness-content .illness .quote p.p-quote-name {
+          display: flex;
+          align-self: flex-end;
+          color: #808080; }
+      .illness-container .illness-content .illness .images-content {
+        display: flex; }
+        @media screen and (max-width: 600px) {
+          .illness-container .illness-content .illness .images-content {
+            flex-direction: column; } }
+        .illness-container .illness-content .illness .images-content img {
+          width: 100%; }
+          .illness-container .illness-content .illness .images-content img:not(:only-child) {
+            padding-right: 16px; }
+            @media screen and (max-width: 600px) {
+              .illness-container .illness-content .illness .images-content img:not(:only-child) {
+                padding-right: 0; } }
+            .illness-container .illness-content .illness .images-content img:not(:only-child):last-child {
+              padding-right: 0; }
+
 /*# sourceMappingURL=main.css.map */
