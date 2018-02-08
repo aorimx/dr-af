@@ -38,9 +38,6 @@
             margin-bottom: 48px;
             padding: 16px 48px 12px 48px;
             background: $blue;
-            @include mobile{
-               
-            }
          }
       }
 
@@ -52,10 +49,6 @@
          @include mobile{
             width: 100%;
             margin-top: 32px;  
-         }
-
-         .p-info-gray{
-            color: $gray-text;
          }
          p{
             font-size: 14px;
@@ -72,12 +65,19 @@
             border: 2px solid $blue-cyan;
             padding: 8px 16px 6px 16px;
             transition: all .2s ease-in-out;
+
+            a{
+               color: $blue-cyan;
+            }
          }
          button:hover{
             color: $white;
             background: $blue-cyan;
             box-shadow: 1px 1px 1px rgba(0,0,0,.5);
             transition: all .2s ease-in-out;
+            a{
+               color: $white;
+            }
          }
       }
    }

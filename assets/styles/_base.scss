@@ -17,6 +17,10 @@ body {
   line-height: 1.5;
   margin-top: 81px;
   overflow-x: hidden;
+
+  @include tablet{
+    margin-top: 0;
+  }
 // General Resets
 *{
   box-sizing: border-box;
@@ -69,6 +73,11 @@ a {
 p {
   color: $text-default;
   line-height: 24px / $font-size-base;
+}
+.p-info-gray{
+  font-family: Montserrat-Italic;
+  color: $gray-text;
+  letter-spacing: 0;
 }
 blockquote {
   border-left: 2px solid $gray-light;

@@ -38,13 +38,15 @@
     }
   }
   
-  .hero-text button {
+  .hero-text a{
+      color: #fff;
+  }
+  .hero-text a button {
     border-radius: 25px 25px;
     outline: 0;
     display: inline-block;
     padding: 16px 32px 12px 32px;
     margin-top: 32px;
-    color: #fff;
     background-color: $blue-cyan;
     font-family: Montserrat-Light;
     text-align: center;
@@ -54,6 +56,7 @@
     @include mobile{
       margin-top: 24px;
       font-weight: normal;
+      letter-spacing: 7px;
     }
   }
   .hero-text button:hover{

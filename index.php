@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Dr. Arturo Flores</title>
+  <meta name="description" content="El Dr. Arturo FLores Anguiano es médico cirujano mexicano especialista en Cardiología/Electrofisiología Cardiaca. Originario de la ciudad de Aguascalientes, donde realizó sus estudios iniciales, trasladandose a la ciudad de Guadalajara, Jalisco en 2002, para completar su especialidad."> 
   <link rel="icon" type="image/png" href="assets/images/logos/isotipo.png">
   <!-- [#TODO] Dont forget to update the FAVICON IMAGES in the next route -->
   <!-- <link rel="icon" type="image/png" href="assets/images/favicon-180x180.png" sizes="128x128"> -->
@@ -32,16 +33,24 @@
               TRAYECTORIA
             </li>
           </a>
-          <a href="">
+          <a href="servicios">
             <li>
               SERVICIOS
             </li>
           </a>
-          <a href="">
-            <li>
+          <li class="sub-menu-content">
               ENFERMEDADES
-            </li>
-          </a>
+              <ul class="ul-sub-menu">
+                <li><a href="#">Marcapaso</a></li>
+                <li><a href="#">Cardidesfibrilador</a></li>
+                <li><a href="#">Resincronizador cardiaco</a></li>
+                <li><a href="#">Estudio Electrorisiológico</a></li>
+                <li><a href="#">Arritmias</a></li>
+                <li><a href="#">Infarto</a></li>
+                <li><a href="#">Hipertensión arterial</a></li>
+                <li><a href="#">Insuficiencia cardiaca</a></li>
+              </ul>
+          </li>
           <a href="">
             <li>
               CONTACTO
@@ -63,7 +72,7 @@
            <h2 class="hero-title-blue">YO ME ENCARGO</h2>
            <h2 class="hero-title-red">DE SU CORAZÓN</h2>
            <p class="hero-p">No se preocupe por nada, usted déjeme su corazón a mi.</p>
-           <button class="ripple">TESTIMONIOS</button>
+           <a href="#testimonios"><button>TESTIMONIOS</button></a>
         </div>
      </div>
      <div class="hero-aviso">
@@ -92,7 +101,7 @@
                   <p class="p-info-gray">Médico Cirujano por la Universidad Autónoma de Aguascalientes con Especialidad en Cardiología Intervencionista en arritmias cardiacas por el Instituto Mexicano del Seguro Social y la Universidad de Guadalajara.</p>
                   <p>El Dr. Arturo FLores Anguiano es médico cirujano mexicano especialista en Cardiología/Electrofisiología Cardiaca. Originario de la ciudad de Aguascalientes, donde realizó sus estudios iniciales, trasladandose a la ciudad de Guadalajara, Jalisco en 2002, para completar su especialidad.</p>
                   <p>Ha sido un pionero en las ciencias médicas del siglo XXI, con estudios en campo de cardiología y en las arritmias cardiacas. Innovador en la aplicación...</p>
-                  <button>VER MÁS +</button>
+                  <button><a href="trayectoria.php">VER MÁS +</a></button>
                </div>
             </div>
             <div class="biografia-images">
@@ -103,7 +112,7 @@
          </dvi>
      </section>
      <!-- slider Testimonios -->
-     <section class="testimonios">
+     <section class="testimonios" id="testimonios">
          <div class="testimonios-img">
             <img src="assets/images/biografia/4.png" alt="">
          </div>
@@ -112,8 +121,8 @@
                <div class="itemsSlider">
                   <div class="sliderContent slides fade">
                      <h2 class="p-hero1 caslon">TESTIMONIOS</h2>
-                     <h3 class="p-hero2">Trauma craneoencefálico</h3>
-                     <p class="p-hero2">Trató a mi hermana, ella tuvo un accidente en cuatrimoto y tuvo trauma craneoencefálico. Es un excelente neurocirujano, pese a lo grave que estuvo el accidente. Tiempo después necesitó una cirugía para quitar un higroma que se le formó, quedó sin secuelas. Le agradezco mucho doctor, Dios lo acompañe.</p>
+                     <h3 class="p-hero2">Arritmias</h3>
+                     <p class="p-hero2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
                      <div class="score">
                         <div class="stars">
                         <img src="assets/images/biografia/star.png" alt="">
@@ -122,13 +131,13 @@
                         <img src="assets/images/biografia/star.png" alt="">
                         <img src="assets/images/biografia/star.png" alt="">
                         </div>
-                        <p class="persona">Real San José</p>
+                        <p class="persona">Lorem ipsum</p>
                      </div>
                   </div>
                   <div class="sliderContent slides fade">
                      <h2 class="p-hero1 caslon">TESTIMONIOS</h2>
-                     <h3 class="p-hero2">Epilepsia</h3>
-                     <p class="p-hero2">Vio a mi hijo de epilepsia, mi hijo tenia mas de 20 crisis por día. lo trataron muchos neurólogos y nadie lo controlo. Yo quería que fuera candidato a cirugía, el Dr analizó la posibilidad de operarlo, pero resulto que no era viable en su caso. le dio un tratamiento nuevo y mejoro muchisimo.</p>
+                     <h3 class="p-hero2">Infarto</h3>
+                     <p class="p-hero2">Lorem ipsum dolor, nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum  nisi ut aliquip.</p>
                      <div class="score">
                         <div class="stars">
                         <img src="assets/images/biografia/star.png" alt="">
@@ -137,13 +146,13 @@
                         <img src="assets/images/biografia/star.png" alt="">
                         <img src="assets/images/biografia/star.png" alt="">
                         </div>
-                        <p class="persona">C.M. Puerta de Hierro</p>
+                        <p class="persona">Lorem ipsum</p>
                      </div>
                   </div>
                   <div class="sliderContent slides fade">
                      <h2 class="p-hero1 caslon">TESTIMONIOS</h2>
-                     <h3 class="p-hero2">Schwannoma Cerebral.</h3>
-                     <p class="p-hero2">En estos tiempos es difícil encontrar profesionistas honrados y que por encima de eso sean buenos médicos. El Dr. operó a mi esposo de un Schwannoma cerebral y quedó de maravilla. No se le nota ninguna marca en su cabeza y recuperó su audición. Los dolores de cabeza tambien desaparecieron. Lo mejor</p>
+                     <h3 class="p-hero2">Marcapaso</h3>
+                     <p class="p-hero2">Lorem ipsum dolor, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit culpa qui officia deserunt mollit anim id est laborum</p>
                      <div class="score">
                         <div class="stars">
                            <img src="assets/images/biografia/star.png" alt="">
@@ -152,7 +161,7 @@
                            <img src="assets/images/biografia/star.png" alt="">
                            <img src="assets/images/biografia/star.png" alt="">
                         </div>
-                        <p class="persona">Consultorio /Pablo Neruda</p>
+                        <p class="persona">Lorem ipsum</p>
                      </div>
                   </div>
                   <span id="btn1" class="itemsDirections" onclick="plusIndex(-1)"><img src="assets/images/biografia/flecha2.png" alt=""></span>
@@ -171,7 +180,7 @@
                <p>Para estimular el corazón, aumentando la frecuencia de su latidos o para evitar que deje de latir.</p>
                <p>¿Cúanto esta indicado el marcapaso?</p>
                <p>Se encuentras indicado en personas con desmayos (sincope), frecuencia cardiaca baja (bradicardia), o en arritmias cardiacas.</p>
-               <button>VER MÁS +</button>
+               <button><a href="marcapaso.php">VER MÁS +</a></button>
             </div>
             <div class="home-enf-img">
                <img src="assets/images/biografia/5.png" alt="">
@@ -196,7 +205,7 @@
         </div>
         <div class="footer-list-2 list-3">
            <h3>ENFERMEDADES</h3>
-           <a href="#">Maracapaso</a>
+           <a href="#">Marcapaso</a>
            <a href="#">Cardidesfibrilador</a>
            <a href="#">Resincronizador</a>
            <a href="#">Estudio Electrorisiologico</a>

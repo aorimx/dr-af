@@ -38,4 +38,7 @@ img {
 .logo-header{
   height: 48px;
   width: auto;
+  @include mobile{
+    height: 40px;;
+  }
 }
