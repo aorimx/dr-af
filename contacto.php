@@ -16,7 +16,7 @@
   <!--  Header  -->
   <div class="header-container">
     <header class="main-nav">
-      <a href="">
+      <a href="/">
         <img src="assets/images/logos/isotipo.png" class="logo-header" alt="">
       </a>
       <nav role="navigation">
