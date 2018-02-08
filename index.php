@@ -23,7 +23,7 @@
       </a>
       <nav role="navigation">
         <ul>
-          <a href="inicio">
+          <a href="/">
             <li class="active-nav">
               INICIO
             </li>
@@ -51,7 +51,7 @@
                 <li><a href="#">Insuficiencia cardiaca</a></li>
               </ul>
           </li>
-          <a href="">
+          <a href="contacto">
             <li>
               CONTACTO
             </li>

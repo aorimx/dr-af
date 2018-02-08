@@ -21,7 +21,7 @@
       </a>
       <nav role="navigation">
         <ul>
-          <a href="inicio">
+          <a href="/">
             <li>
               INICIO
             </li>
@@ -31,17 +31,25 @@
               TRAYECTORIA
             </li>
           </a>
-          <a href="">
+          <a href="servicios">
             <li>
               SERVICIOS
             </li>
           </a>
-          <a href="">
-            <li>
+          <li class="sub-menu-content">
               ENFERMEDADES
-            </li>
-          </a>
-          <a href="">
+              <ul class="ul-sub-menu">
+                <li><a href="#">Marcapaso</a></li>
+                <li><a href="#">Cardidesfibrilador</a></li>
+                <li><a href="#">Resincronizador cardiaco</a></li>
+                <li><a href="#">Estudio Electrorisiológico</a></li>
+                <li><a href="#">Arritmias</a></li>
+                <li><a href="#">Infarto</a></li>
+                <li><a href="#">Hipertensión arterial</a></li>
+                <li><a href="#">Insuficiencia cardiaca</a></li>
+              </ul>
+          </li>
+          <a href="contacto">
             <li class="active-nav">
               CONTACTO
             </li>
