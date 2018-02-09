@@ -2476,5 +2476,43 @@ footer {
                 padding-right: 0; } }
             .illness-container .illness-content .illness .images-content img:not(:only-child):last-child {
               padding-right: 0; }
+    .illness-container .illness-content .illness-social-media {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      margin-top: 56px; }
+      @media screen and (max-width: 600px) {
+        .illness-container .illness-content .illness-social-media {
+          flex-direction: column; } }
+      .illness-container .illness-content .illness-social-media .social-images-content {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: auto; }
+        @media screen and (max-width: 600px) {
+          .illness-container .illness-content .illness-social-media .social-images-content {
+            margin-top: 24px; } }
+        .illness-container .illness-content .illness-social-media .social-images-content a {
+          height: 22px;
+          margin-bottom: 0; }
+          @media screen and (max-width: 600px) {
+            .illness-container .illness-content .illness-social-media .social-images-content a {
+              height: 24px; } }
+        .illness-container .illness-content .illness-social-media .social-images-content .redes-img {
+          width: auto;
+          height: 22px;
+          margin: 0 16px;
+          cursor: pointer; }
+          @media screen and (max-width: 600px) {
+            .illness-container .illness-content .illness-social-media .social-images-content .redes-img {
+              height: 24px; } }
+      .illness-container .illness-content .illness-social-media p {
+        margin-right: 16px;
+        margin-bottom: 0; }
 
 /*# sourceMappingURL=main.css.map */

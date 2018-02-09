@@ -10,6 +10,10 @@
   <!-- <link rel="icon" type="image/png" href="assets/images/favicon-180x180.png" sizes="128x128"> -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" integrity="sha256-K3Njjl2oe0gjRteXwX01fQD5fkk9JFFBdUHy/h38ggY=" crossorigin="anonymous" rel="stylesheet">
   <link href="./assets/styles/main.css" rel="stylesheet">
+  <script>
+    var sharing_name = "Comparte esta pagina";
+    var sharing_url = "http://drarturoflores.com/insuficiencia-cardiaca.php";
+  </script>
 </head>
 
 <body>
@@ -154,7 +158,15 @@
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin, turpis sed fringilla dapibus, ante tortor convallis metus, eget interdum nunc ligula at risus. Sed ut tempus ipsum. Proin non elit vulputate, rutrum tortor tristique, tempus nisl. Ut auctor varius lacus et condimentum. Proin et consequat quam. Pellentesque arcu eros, iaculis ut lorem at, tincidunt egestas augue. Donec vel diam quis odio blandit dignissim laoreet vitae velit</p>
               </div>
           </div>
-        
+          <div class="illness-social-media">
+            <p>Compartir</p>
+            <div class="social-images-content">
+              <img class="redes-img" data-type="twitter" src="assets/images/enfermedades/twitter.png" alt="">
+              <img class="redes-img" data-type="facebook" src="assets/images/enfermedades/facebbok_outline.png" alt="">
+              <img class="redes-img" data-type="linkedin" src="assets/images/enfermedades/linkedin.png" alt="">
+              <a href="mailto:?subject=Mira Esta Pagina&body=Hola, Encontre este sitio web que podria ser de tu agrado o ayuda http://drarturoflores.com/insuficiencia-cardiaca.php"><img class="redes-img" data-type="mail" src="assets/images/enfermedades/mail-icon.png" alt=""></a>
+            </div>
+          </div>
 
         </div>
       </div>
@@ -166,6 +178,6 @@
   <script src="assets/scripts/ripple.js"></script>
   <script src="assets/scripts/header.js"></script>
   <script src="assets/scripts/closeAd.js"></script>
-
+  <script src="assets/scripts/compartir.js"></script> 
 </body>
 </html>

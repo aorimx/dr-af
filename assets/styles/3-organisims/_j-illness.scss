@@ -209,6 +209,53 @@
 
 
       }
+      .illness-social-media{
+         display: flex;
+         flex-wrap: nowrap;
+         justify-content: center;
+         align-items: center;
+         width: 100%;
+         height: auto;
+         margin-top: 56px;
+
+         @include mobile{
+            flex-direction: column;
+         }
+
+         .social-images-content{
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            height: auto;
+            @include mobile{
+               margin-top: 24px;
+            }
+
+            a{
+               height: 22px;
+               margin-bottom: 0;
+               @include mobile{
+                  height: 24px;
+               }
+            }
+            .redes-img{
+               width: auto;
+               height: 22px;
+               margin: 0 16px;
+               cursor: pointer;
+               @include mobile{
+                  height: 24px;
+               }
+            }
+         }
+
+         p{
+            margin-right: 16px;
+            margin-bottom: 0;
+         }
+      }
 
    }
 
