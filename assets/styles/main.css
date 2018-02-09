@@ -2347,6 +2347,9 @@ footer {
         width: 65%;
         padding-right: 40px;
         flex-direction: column; }
+        @media screen and (max-width: 900px) {
+          .illness-container .illness-content .illness .left-side {
+            width: 63%; } }
         @media screen and (max-width: 600px) {
           .illness-container .illness-content .illness .left-side {
             width: 100%;
@@ -2357,6 +2360,10 @@ footer {
         width: 35%;
         height: auto;
         padding-left: 40px; }
+        @media screen and (max-width: 900px) {
+          .illness-container .illness-content .illness .right-side {
+            width: 37%;
+            padding-left: 0; } }
         @media screen and (max-width: 600px) {
           .illness-container .illness-content .illness .right-side {
             width: 100%;
@@ -2384,7 +2391,8 @@ footer {
           background: #126bf8; }
           @media screen and (max-width: 900px) {
             .illness-container .illness-content .illness .title-content .p-h2 {
-              font-size: 1rem;
+              font-size: 22px;
+              padding: 16px 24px 12px 24px;
               width: 100%; } }
       .illness-container .illness-content .illness .date {
         display: flex;
