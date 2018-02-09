@@ -1352,7 +1352,7 @@ header.main-nav.responsive {
       height: auto; } }
   .testimonios .testimonios-img {
     display: flex;
-    width: 45%;
+    width: 42%;
     height: 376px; }
     @media screen and (max-width: 900px) {
       .testimonios .testimonios-img {
@@ -1366,7 +1366,8 @@ header.main-nav.responsive {
   .testimonios .testimonios-spaceWhite {
     display: flex;
     width: 55%;
-    height: auto; }
+    height: auto;
+    margin-left: 3%; }
     @media screen and (max-width: 900px) {
       .testimonios .testimonios-spaceWhite {
         align-items: center;
@@ -1558,11 +1559,15 @@ header.main-nav.responsive {
       border-radius: 0;
       border: 2px solid #6eaef9;
       transition: all .2s ease-in-out; }
+      .home-enfermedades-container .home-enfermedades-info button a {
+        color: #6eaef9; }
     .home-enfermedades-container .home-enfermedades-info button:hover {
       color: #ffffff;
       background: #6eaef9;
       box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
       transition: all .2s ease-in-out; }
+      .home-enfermedades-container .home-enfermedades-info button:hover a {
+        color: #ffffff; }
   .home-enfermedades-container .home-enf-img {
     position: relative;
     display: flex;
