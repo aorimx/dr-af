@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Dr. Arturo Flores</title>
+  <title>Dr. Arturo Flores | Insuficiencia cardiaca</title>
   <link rel="icon" type="image/png" href="assets/images/logos/isotipo.png">
   <!-- [#TODO] Dont forget to update the FAVICON IMAGES in the next route -->
   <!-- <link rel="icon" type="image/png" href="assets/images/favicon-180x180.png" sizes="128x128"> -->
@@ -22,8 +22,8 @@
       </a>
       <nav role="navigation">
         <ul>
-          <a href="inicio">
-            <li class="active-nav">
+          <a href="/">
+            <li>
               INICIO
             </li>
           </a>
@@ -32,17 +32,25 @@
               TRAYECTORIA
             </li>
           </a>
-          <a href="">
+          <a href="servicios">
             <li>
               SERVICIOS
             </li>
           </a>
-          <a href="">
-            <li>
+          <li class="sub-menu-content active-nav">
               ENFERMEDADES
-            </li>
-          </a>
-          <a href="">
+              <ul class="ul-sub-menu">
+                <li><a href="marcapaso">Marcapaso</a></li>
+                <li><a href="cardiodesfibrilador">Cardiodesfibrilador</a></li>
+                <li><a href="resincronizador-cardiaco">Resincronizador cardiaco</a></li>
+                <li><a href="estudio-electrofisiologico">Estudio Electrorisiológico</a></li>
+                <li><a href="arritmias">Arritmias</a></li>
+                <li><a href="infartos">Infarto</a></li>
+                <li><a href="hipertension-arterial">Hipertensión arterial</a></li>
+                <li><a href="insuficiencia-cardiaca" class="active-nav">Insuficiencia cardiaca</a></li>
+              </ul>
+          </li>
+          <a href="contacto">
             <li>
               CONTACTO
             </li>
@@ -81,50 +89,38 @@
                   </div>
                   <div class="right-side">
                   </div>
-          </div>
+           </div>
 
 
           <div class="illness">
               <div class="left-side info">
-                <p class="p-info-1">resincronizador</p>
-                <p class="p-info-2">cardiaco</p>
+                <p class="p-info-1">insuficiencia</p>
+                <p class="p-info-2">cardiaca</p>
                 <p class="p-info-5" style="margin-top:0">Dr. Arturo Flores / Cardiólogo </p>
                 <p class="p-info-2">&nbsp;</p>
 
-                <p class="p-info-3">¿Qué es un Resincronizador Cardiaco?</p>
-                <p>Es un dispositivo tipo marcapaso, que ayuda al corazón a que sincronice su latido para darle mar fuerza y mejorar la cantidad de sangre que sale del corazón a todo el cuerpo</p>
+                <p class="p-info-3">¿Qué es la insuficiencia Cardiaca?</p>
 
-                <p class="p-info-3">¿Qué es Resincronizar?</p>
-                <p>Se considera que el corazón cuando late normalmente, sus paredes se encuentran sincronizadas para contraerse al mismo tiempo, en algunos pacientes se pierde esta propiedad generando que el corazón sea incapaz de bombear la misma cantidad de sangre generando una enfermedad llamada insuficiencia cardiaca. </p>
+                <p>Es cuando el corazón se enferma y pierde fuerza,   ya no siendo capaz de “bombear” la sangre de una manera adecuada a todo el cuerpo, por lo que la sangre se puede acumular como presa en algunos otros órganos, como  pulmones, hígado y las piernas. <p>
 
-                <p class="p-info-3">¿Cuáles son los síntomas de insuficiencia cardiaca?</p>
+                <pclass="p-info-3">¿Cuáles son los síntomas de insuficiencia cardiaca?</p>
+                <p>El síntomas primordial es Incapacidad progresiva para respirar, a lo cual se le conoce como Disnea.</p>
+                <p>El paciente  le cuesta, poco a poco, más trabajo realizar ejercicio o sus actividades normales, como caminar unas cuadras o subir escaleras,  teniendo que descansar para poder tomar aire.</p>
+
+                <pclass="p-info-3">Otros síntomas son: </p>
                 <ul>
-                  <li>Dificultad progresiva para respirar (disnea).</li>
-                  <li>Con poco esfuerzo como seria caminar un o dos cuadras, falta el aire.</li>
-                  <li>Dificultad para respirar al acostarse (ortopnea).</li>
-                  <li>Por lo cual las personas requieren almohadas para poder dormir o duermen  completamente sentados.</li>
-                  <li>Crecimiento del hígado.</li>
-                  <li>Lo cual genera dolor en el abdomen del lado derecho.</li>
-                  <li>Hinchazón en piernas.</li>
-                  <li>La sangre se acumula en las piernas por que no puede circular. </li>
+                  <li>Dormir con 2, 3, 4 almohadas o completamente sentado porque les falta el aire</li>
+                  <li>Despertar en la noche con mucha falta de aire </li>
+                  <li>Las venas del cuello se ven muy “marcadas o saltadas”</li>
+                  <li>Crecimiento del hígado con dolor en el abdomen del lado derecho</li>
+                  <li>Falta de hambre. </li>
+                  <li>Hinchazón o edema de las piernas. </li>
                 </ul>
 
-                <p class="p-info-3">¿Cuándo esta indicado colocar un resincronizador?</p>
-                <p>Generalmente cuando el paciente tiene una insuficiencia cardiaca Severa y los medicamentos no son capaces de mejorar los síntomas. </p>
-
-                <p class="p-info-3" >¿Cuál es la diferencia entre un Resincronizador y un marcapaso?</p>
-                <p>La gran diferencia es que el Resincronizador se implantan 3 electrodos dentro del corazón, a comparación del marcapaso que puede ser de 1 a 2 electrodos. </p>
-
-
-                <div class="images-content">
-                  <img src="assets/images/enfermedades/resincronizadorcardiaco_1.png" alt="">
-                  <img src="assets/images/enfermedades/resincronizadorcardiaco_2.png" alt="">
-                </div>  
-
-                <p>Actualmente el resincronizador viene acoplado con un Cardiodesfibrilador por lo cual la doble terapia va a beneficiar mucho mas al paciente. Y se deben de tener los mismos cuidados con ambos dispositivos. </p>
-
-
-
+                <pclass="p-info-3">¿Cómo se trata la insuficiencia cardiaca?</p>
+                <p>El tratamiento dependerá de la causa subyacente que hubiera generado el cuadro clínico. Pero en general se dan medicamentos para aumentar la fuerza del corazón y diuréticos para disminuir la cantidad de agua que debe de bombear el corazón.</p>
+                <p>En casos más severos se recomienda la colocación de un dispositivo llamado RESINCRONIZADOR CARDIACO, el cual puede estimular al corazón para que tenga más fuerza, logrando mejorar los síntomas. </p>
+                <p>La última opción es el Trasplante Cardiaco, lo cual se recomienda solo en casos que todo lo anterior hubiera fallado. <p>
 
               </div>
 
@@ -171,7 +167,7 @@
         <div class="footer-list-2 list-3">
            <h3>ENFERMEDADES</h3>
            <a href="#">Maracapaso</a>
-           <a href="#">Cardidesfibrilador</a>
+           <a href="#">Cardiodesfibrilador</a>
            <a href="#">Resincronizador</a>
            <a href="#">Estudio Electrorisiologico</a>
            <a href="#">Arritmias</a>

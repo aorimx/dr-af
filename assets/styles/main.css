@@ -306,7 +306,7 @@ body {
   margin-top: 48px; }
 
 .active-nav {
-  color: #ef2222; }
+  color: #ef2222 !important; }
 
 .j-workspace {
   box-sizing: border-box; }
@@ -1123,7 +1123,7 @@ header.main-nav.responsive {
           header.main-nav.responsive nav .ul-sub-menu li {
             width: 82%; } }
       header.main-nav.responsive nav .ul-sub-menu li a {
-        width: 82%;
+        width: 84%;
         font-size: 20px;
         text-align: center; }
     header.main-nav.responsive nav .sub-menu-content:hover .ul-sub-menu {

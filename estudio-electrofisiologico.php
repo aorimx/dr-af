@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Dr. Arturo Flores</title>
+  <title>Dr. Arturo Flores | Estudio Electrorisiológico</title>
   <link rel="icon" type="image/png" href="assets/images/logos/isotipo.png">
   <!-- [#TODO] Dont forget to update the FAVICON IMAGES in the next route -->
   <!-- <link rel="icon" type="image/png" href="assets/images/favicon-180x180.png" sizes="128x128"> -->
@@ -22,8 +22,8 @@
       </a>
       <nav role="navigation">
         <ul>
-          <a href="inicio">
-            <li class="active-nav">
+          <a href="/">
+            <li>
               INICIO
             </li>
           </a>
@@ -32,17 +32,25 @@
               TRAYECTORIA
             </li>
           </a>
-          <a href="">
+          <a href="servicios">
             <li>
               SERVICIOS
             </li>
           </a>
-          <a href="">
-            <li>
+          <li class="sub-menu-content active-nav">
               ENFERMEDADES
-            </li>
-          </a>
-          <a href="">
+              <ul class="ul-sub-menu">
+                <li><a href="marcapaso">Marcapaso</a></li>
+                <li><a href="cardiodesfibrilador">Cardiodesfibrilador</a></li>
+                <li><a href="resincronizador-cardiaco">Resincronizador cardiaco</a></li>
+                <li><a href="estudio-electrofisiologico" class="active-nav">Estudio Electrorisiológico</a></li>
+                <li><a href="arritmias">Arritmias</a></li>
+                <li><a href="infartos">Infarto</a></li>
+                <li><a href="hipertension-arterial">Hipertensión arterial</a></li>
+                <li><a href="insuficiencia-cardiaca">Insuficiencia cardiaca</a></li>
+              </ul>
+          </li>
+          <a href="contacto">
             <li>
               CONTACTO
             </li>
@@ -81,58 +89,71 @@
                   </div>
                   <div class="right-side">
                   </div>
-           </div>
+          </div>
 
 
           <div class="illness">
               <div class="left-side info">
-                <p class="p-info-1">hipertensión</p>
-                <p class="p-info-2">arterial</p>
+                <p class="p-info-1">estudio</p>
+                <p class="p-info-2">electrofisiológico</p>
                 <p class="p-info-5" style="margin-top:0">Dr. Arturo Flores / Cardiólogo </p>
                 <p class="p-info-2">&nbsp;</p>
 
 
-                <p class="p-info-3">¿Qué es la hipertensión arterial?</p>
-                <p>Es cuando la presión en las arterias se eleva mas de las cifras normales y se mantiene elevada. </p>
-                <p>Las cifras normales son:</p>
-                <p>120 / 80 mmHg</p>
+                <p class="p-info-3">¿Qué es y para qué sirve un Estudio Electrofisiológico?<p>
+                <p>Es un procedimiento que permite  estudiar las alteraciones del ritmo cardiaco (arritmias). </p>
 
-                <p class="p-info-3">¿Cómo se si soy hipertenso?</p>
-                <p>El diagnóstico de la presión arterial elevada se realiza al tomar 3 medidas separadas al menos 24 hrs,  si el promedio de las tres es mayor de 120/80 , se considera hipertensa a la persona. </p>
-                <p>Hay otro método que consiste en poner un Monitor Ambulatorio de la Presión Arterial (MAPA) que consiste en un brazalete que se deja las 24 hrs,   y cada 30 min  toma la presión. Si el promedio de todas las tomas es mayor de 120/80 mmHg. Se realiza el diagnostico de hipertensión </p>
-
+                <p>Hay dos tipos de Arritmias las lentas llamadas Bradicardias y las rápidas llamadas taquicardias.</p>
+                <p>Ambas se pueden estudiar en este procedimiento, sin embargo, es mas indicado para el tratamiento de las taquicardias, donde puede curar estas arritmias</p>
 
                 <div class="images-content">
-                  <img src="assets/images/enfermedades/HIPERTENSIÓN_ARTERIAL.png" alt="">
+                  <img src="assets/images/enfermedades/ESTUDIO ELECTROFISIOLÓGICO_1.png" alt="">
+                </div> 
+
+                <div class="images-content">
+                <img src="assets/images/enfermedades/ESTUDIO ELECTROFISIOLÓGICO_2.png" alt="">
                 </div> 
 
 
-                <p class="p-info-3">¿Cuáles son los síntomas de hipertensión?</p>
-                <p>La hipertensión también se le conoce como la Muerte silenciosa, debido a que “No genera Síntomas”, en un inicio de la enfermedad.</p>
-                <p>Los síntomas se presentan hasta muy avanzada la enfermedad cuando ya hay lesión de otros órganos y estos pueden ser:</p>
+                <p class="p-info-3">¿Qué es una taquicardia?</p>
+                <p>Es cuando el corazón se acelera mas de lo normal.  Nuestro latido deben de ser entre 60 a 100 latidos por minuto ,  cuando van a una velocidad mayor, se considera taquicardia. </p>
+                <p>Puede ser una aceleración normal del corazón, como cuando hacemos ejercicio, pero esto también tiene su límite. </p>
+                <p>Hay personas que pueden tener taquicardias mayores de 200 latidos por minuto y estas pueden poner en riesgo la vida. </p>
+                <p>El estudio electrofisiológico puede curar este tipos de arritmias.</p>
+
+                <p class="p-info-3">¿Cuándo esa indicado un Estudio Electrofisiológico?</p>
+                <p>Cuando el paciente presente:</p>
                 <ul>
-                <li>Dolor de cabeza </li>
-                <li>Mareo, Nausea, Vómitos</li>
-                <li>Opresión de pecho (angina)</li>
-                <li>Dificultad para respirar</li>
-                <li>Ceguera transitoria</li>
-                <li>Sincope o desmayo </li>
-                <li>Lesión del riñón, disminuyendo la cantidad de orina o su calidad. </li>
-                <li>Desorientación o estado de delirio  </li>
+                <li>Palpitaciones muy rápidas o irregulares</li>
+                <li>Taquicardias mayores de 150  latidos por minuto sin causa aparente</li>
+                <li>Mareos intensos. </li>
+                <li>Desmayos (síncopes)</li>
+                <li>Bradicardias</li>
+                <li>Muerte súbita de un familiar cercano. </li>
                 </ul>
-                <p>Si presenta uno de estos síntomas, hay que acudir inmediatamente al médico.</p>
 
 
-                <p class="p-info-3">¿Cuál es la presión más importante la alta (sistólica) o la baja (diastólica)?</p>
-                <p>Definitivamente la  alta (sistólica), debido a que puede lesión los vasos sanguíneos y generar una ruptura, y generar hemorragia cerebral  o en la retina. </p>
+                <p class="p-info-3">¿Cómo se realiza un Estudio Electrofisiológico?</p>
+                <p>Para realizar un Estudio Electrofisiológico se introducen  varios catéteres por punción en una vena o arteria femoral, en la ingle. Estos catéteres son cables eléctricos muy finos que se avanzan guiados por rayos x a través de las venas y se ubican en lugares concretos del corazón para estudiar su activación eléctrica en distintas circunstancias (durante ritmo normal, estimulación, taquicardia o tras la administración de determinados fármacos</p>
+                <p>El procedimiento se hace habitualmente con anestesia local en la zona de punción.</p>
+                <p>Durante el procedimiento el paciente está consciente y puede comunicarse con los médicos y enfermeras.</p>
+                <p>Los Estudios Electrofisiológicos en niños o pacientes poco colaboradores también se hacen bajo anestesia general.</p>
+                <p>La duración aproximada del procedimiento es de 2 horas, aunque por la dificultad de algunos casos ésta puede llegar a ser superior.</p>
+                <p>Los pacientes normalmente pueden irse a casa 24 hrs posterior al estudio si no hay complicaciones ni otros motivos para seguir internado.</p>
 
-                <p class="p-info-3">¿Cuándo se considera que la presión es muy peligrosa?</p>
-                <p>Cuando la presión arterial es mayor de 180 / 110 mmHg se clasifica como una Crisis Hipertensiva y puede lesionar órganos vitales por lo cual es importantísimo acudir a un médico para control inmediato de la presión arterial</p>
+                <div class="images-content">
+                <img src="assets/images/enfermedades/ESTUDIO ELECTROFISIOLÓGICO_3.png" alt="">
+                </div> 
 
-                <p class="p-info-3">¿Cuándo se considera hipotensión?</p>
-                <p>La hipotensión es cuando la presión arterial baja demasiado, y se considera cuando la presión se encuentra menor de   90 /  60 mmHg.</p>
-                <p>Recuerde: </p>
-                <p>Se recomienda la toma de presión arterial al menos una vez al año, a partir de los 30 años de edad.</p>
+                <p class="p-info-3">¿Qué riesgos tiene?</p>
+                <p>Los riesgos  se  presentan en 2 al 3 % de los casos y son:</p>
+                <ul>
+                  <li>Sangrado en sitio de punción en la ingle, por lo cual se recomienda no movilizar la pierna durante unas 8 a 12 hrs después del estudio para evitar la complicación. Ademas se deja un vendaje con compresión durante estas horas para evitar el sangrado.</li>
+                  <li>Hematoma o moretón en la ingle, lo cual se reabsorbe en el transcurso de 3 a 4 semanas. </li>
+                  <li>Dolor en la vena que se punciono, que generalmente se corrige en unos días. </li>
+                  <li>La complicación mas peligrosa es una perforación del corazón por algún catéter, lo cual es extremadamente raro, pero podría ocurrir, por tal motivo, el estudio se debe de realizar lo mas cuidadosamente posible. En caso de una perforación cardiaca requerirá de una cirugía para corregir la perforación</li>
+                </ul>
+                <p>Aún con estos riesgos, el Estudio Electrofisiológico, en manos expertas, tiene un rango de seguridad mayor del 90% por lo cual lo hace un estudio confiable y seguro.</p>
 
               </div>
 
@@ -179,7 +200,7 @@
         <div class="footer-list-2 list-3">
            <h3>ENFERMEDADES</h3>
            <a href="#">Maracapaso</a>
-           <a href="#">Cardidesfibrilador</a>
+           <a href="#">Cardiodesfibrilador</a>
            <a href="#">Resincronizador</a>
            <a href="#">Estudio Electrorisiologico</a>
            <a href="#">Arritmias</a>

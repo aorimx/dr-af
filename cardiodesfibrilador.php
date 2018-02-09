@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Dr. Arturo Flores</title>
+  <title>Dr. Arturo Flores | Cardiodesfibrilador</title>
   <link rel="icon" type="image/png" href="assets/images/logos/isotipo.png">
   <!-- [#TODO] Dont forget to update the FAVICON IMAGES in the next route -->
   <!-- <link rel="icon" type="image/png" href="assets/images/favicon-180x180.png" sizes="128x128"> -->
@@ -22,8 +22,8 @@
       </a>
       <nav role="navigation">
         <ul>
-          <a href="inicio">
-            <li class="active-nav">
+          <a href="/">
+            <li>
               INICIO
             </li>
           </a>
@@ -32,17 +32,25 @@
               TRAYECTORIA
             </li>
           </a>
-          <a href="">
+          <a href="servicios">
             <li>
               SERVICIOS
             </li>
           </a>
-          <a href="">
-            <li>
+          <li class="sub-menu-content active-nav">
               ENFERMEDADES
-            </li>
-          </a>
-          <a href="">
+              <ul class="ul-sub-menu">
+                <li><a href="marcapaso">Marcapaso</a></li>
+                <li><a href="cardiodesfibrilador" class="active-nav">Cardiodesfibrilador</a></li>
+                <li><a href="resincronizador-cardiaco">Resincronizador cardiaco</a></li>
+                <li><a href="estudio-electrofisiologico">Estudio Electrorisiológico</a></li>
+                <li><a href="arritmias">Arritmias</a></li>
+                <li><a href="infartos">Infarto</a></li>
+                <li><a href="hipertension-arterial">Hipertensión arterial</a></li>
+                <li><a href="insuficiencia-cardiaca">Insuficiencia cardiaca</a></li>
+              </ul>
+          </li>
+          <a href="contacto">
             <li>
               CONTACTO
             </li>
@@ -185,7 +193,7 @@
         <div class="footer-list-2 list-3">
            <h3>ENFERMEDADES</h3>
            <a href="#">Maracapaso</a>
-           <a href="#">Cardidesfibrilador</a>
+           <a href="#">Cardiodesfibrilador</a>
            <a href="#">Resincronizador</a>
            <a href="#">Estudio Electrorisiologico</a>
            <a href="#">Arritmias</a>

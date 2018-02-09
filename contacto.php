@@ -39,14 +39,14 @@
           <li class="sub-menu-content">
               ENFERMEDADES
               <ul class="ul-sub-menu">
-                <li><a href="#">Marcapaso</a></li>
-                <li><a href="#">Cardidesfibrilador</a></li>
-                <li><a href="#">Resincronizador cardiaco</a></li>
-                <li><a href="#">Estudio Electrorisiológico</a></li>
-                <li><a href="#">Arritmias</a></li>
-                <li><a href="#">Infarto</a></li>
-                <li><a href="#">Hipertensión arterial</a></li>
-                <li><a href="#">Insuficiencia cardiaca</a></li>
+                <li><a href="marcapaso">Marcapaso</a></li>
+                <li><a href="cardiodesfibrilador">Cardiodesfibrilador</a></li>
+                <li><a href="resincronizador-cardiaco">Resincronizador cardiaco</a></li>
+                <li><a href="estudio-electrofisiologico">Estudio Electrorisiológico</a></li>
+                <li><a href="arritmias">Arritmias</a></li>
+                <li><a href="infartos">Infarto</a></li>
+                <li><a href="hipertension-arterial">Hipertensión arterial</a></li>
+                <li><a href="insuficiencia-cardiaca">Insuficiencia cardiaca</a></li>
               </ul>
           </li>
           <a href="contacto">
@@ -208,7 +208,7 @@
         <div class="footer-list-2 list-3">
            <h3>ENFERMEDADES</h3>
            <a href="#">Marcapaso</a>
-           <a href="#">Cardidesfibrilador</a>
+           <a href="#">Cardiodesfibrilador</a>
            <a href="#">Resincronizador</a>
            <a href="#">Estudio Electrorisiologico</a>
            <a href="#">Arritmias</a>

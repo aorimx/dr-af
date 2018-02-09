@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Dr. Arturo Flores</title>
+  <title>Dr. Arturo Flores | Resincronizador cardiaco</title>
   <link rel="icon" type="image/png" href="assets/images/logos/isotipo.png">
   <!-- [#TODO] Dont forget to update the FAVICON IMAGES in the next route -->
   <!-- <link rel="icon" type="image/png" href="assets/images/favicon-180x180.png" sizes="128x128"> -->
@@ -22,8 +22,8 @@
       </a>
       <nav role="navigation">
         <ul>
-          <a href="inicio">
-            <li class="active-nav">
+          <a href="/">
+            <li>
               INICIO
             </li>
           </a>
@@ -32,17 +32,25 @@
               TRAYECTORIA
             </li>
           </a>
-          <a href="">
+          <a href="servicios">
             <li>
               SERVICIOS
             </li>
           </a>
-          <a href="">
-            <li>
+          <li class="sub-menu-content active-nav">
               ENFERMEDADES
-            </li>
-          </a>
-          <a href="">
+              <ul class="ul-sub-menu">
+                <li><a href="marcapaso">Marcapaso</a></li>
+                <li><a href="cardiodesfibrilador">Cardiodesfibrilador</a></li>
+                <li><a href="resincronizador-cardiaco" class="active-nav">Resincronizador cardiaco</a></li>
+                <li><a href="estudio-electrofisiologico">Estudio Electrorisiológico</a></li>
+                <li><a href="arritmias">Arritmias</a></li>
+                <li><a href="infartos">Infarto</a></li>
+                <li><a href="hipertension-arterial">Hipertensión arterial</a></li>
+                <li><a href="insuficiencia-cardiaca">Insuficiencia cardiaca</a></li>
+              </ul>
+          </li>
+          <a href="contacto">
             <li>
               CONTACTO
             </li>
@@ -86,45 +94,43 @@
 
           <div class="illness">
               <div class="left-side info">
-                  <p class="p-info-1">cardio</p>
-                  <p class="p-info-2">desfibrilador</p>
-                  <p class="p-info-5" style="margin-top:0">Dr. Arturo Flores / Cardiólogo </p>
-                  <p class="p-info-2">&nbsp;</p>
+                <p class="p-info-1">resincronizador</p>
+                <p class="p-info-2">cardiaco</p>
+                <p class="p-info-5" style="margin-top:0">Dr. Arturo Flores / Cardiólogo </p>
+                <p class="p-info-2">&nbsp;</p>
 
-                  <p class="p-info-3">¿Qué es un Desfibrilador Automático Implantable (DAI)?</p>
-                  <p class="p-info-4">Es un dispositivo inteligente que detecta arritmias cardiacas letales, enviando rápidamente una descarga eléctrica al corazón. Esta cambia el ritmo de nuevo a la normalidad. Esto se denomina desfibrilación</p>
-                  <p class="p-info-4">Su tamaño y grosor son parecidos a un teléfono celular pequeño.</p>
-                  <div class="images-content">
-                    <img src="assets/images/enfermedades/cardiodesfibrilador.png" alt="">
-                    <img src="assets/images/enfermedades/cardiodesfibrilador.png" alt="">
-                    <img src="assets/images/enfermedades/cardiodesfibrilador.png" alt="">
-                  </div>
+                <p class="p-info-3">¿Qué es un Resincronizador Cardiaco?</p>
+                <p>Es un dispositivo tipo marcapaso, que ayuda al corazón a que sincronice su latido para darle mar fuerza y mejorar la cantidad de sangre que sale del corazón a todo el cuerpo</p>
 
-                  <p class="p-info-3">¿Qué es una arritmia letal?</p>
-                  <p class="p-info-4">Las arritmias son alteraciones del latido normal del corazón, se dividen en dos: lentas y rápidas.</p>
-                  <p class="p-info-4">Para las arritmias lenta generalmente se debe de tratar con un marcapaso.</p>
-                  <p class="p-info-4">Las arritmias rápidas generan taticardias y están pueden ser tan rápidas que ponene en riesgo la vida por lo cual la única manera de trtarlas será dar una descarga eléctrica o cardioversión.</p>
-                  <p class="p-info-4">Estas arritmias pueden generar Muerte súbita incluso en gente aparentemente sans. Como visto recientemente en algunos deportistas que en medio de un partido caen muertos sin causa aparente.</p>
+                <p class="p-info-3">¿Qué es Resincronizar?</p>
+                <p>Se considera que el corazón cuando late normalmente, sus paredes se encuentran sincronizadas para contraerse al mismo tiempo, en algunos pacientes se pierde esta propiedad generando que el corazón sea incapaz de bombear la misma cantidad de sangre generando una enfermedad llamada insuficiencia cardiaca. </p>
 
-                  <p class="p-info-3">¿Cuándo esta indicado colocar un Desfibrilador automatico implantable (DAI)?</p>
-                  <p class="p-info-4">
-                      Sus indicaciones son muy precisas
-                      <ul>
-                        <li>Arritmias cardiacas potencialmente letales</li>
-                        <li>Paciente con taquicardias despeus de infartos</li>
-                        <li>Pacientes con desmayos (sincopes) por arritmias</li>
-                        <li>Personas que hubieran tenido un familiar que sufrió muerte súbita. (padres, hermanos o hijos)</li>
-                      </ul>
-                  </p>
+                <p class="p-info-3">¿Cuáles son los síntomas de insuficiencia cardiaca?</p>
+                <ul>
+                  <li>Dificultad progresiva para respirar (disnea).</li>
+                  <li>Con poco esfuerzo como seria caminar un o dos cuadras, falta el aire.</li>
+                  <li>Dificultad para respirar al acostarse (ortopnea).</li>
+                  <li>Por lo cual las personas requieren almohadas para poder dormir o duermen  completamente sentados.</li>
+                  <li>Crecimiento del hígado.</li>
+                  <li>Lo cual genera dolor en el abdomen del lado derecho.</li>
+                  <li>Hinchazón en piernas.</li>
+                  <li>La sangre se acumula en las piernas por que no puede circular. </li>
+                </ul>
+
+                <p class="p-info-3">¿Cuándo esta indicado colocar un resincronizador?</p>
+                <p>Generalmente cuando el paciente tiene una insuficiencia cardiaca Severa y los medicamentos no son capaces de mejorar los síntomas. </p>
+
+                <p class="p-info-3" >¿Cuál es la diferencia entre un Resincronizador y un marcapaso?</p>
+                <p>La gran diferencia es que el Resincronizador se implantan 3 electrodos dentro del corazón, a comparación del marcapaso que puede ser de 1 a 2 electrodos. </p>
 
 
-                  
-                  <p class="p-info-3">¿Cómo funciona el DAI?</p>
-                  <p class="p-info-4">El aparato tiene la capacidad de detectar una arritmia cardiaca y decidir el mejor tratamiento para la misma, teniendo varias opciones, inclusive puede mandad una descarga eléctrica fuerte al corazón para reiniciar su función, salvando la visa del paciente. Esto puede realizar en cuetion de segundos.</p>
+                <div class="images-content">
+                  <img src="assets/images/enfermedades/resincronizadorcardiaco_1.png" alt="">
+                  <img src="assets/images/enfermedades/resincronizadorcardiaco_2.png" alt="">
+                </div>  
 
-                  <p class="p-info-3">¿Qué se siente cuando el DAI administre una terapia?</p>
-                  <p class="p-info-4">Se puede sentir palpitaciones, sensación de que el tórax "brinca". Sin embargo si es necesariamente la administración de un choque eléctrico, la mayoria de los pacientes describen el choque eléctrico como una sacudida súbita o un fuerte golpe en el pecho. Algunas personas se desmayan durante un episodio de fibrilación y no sienten nada cuando se administra el choque. Si una persona lo toca en el momento de recibir usted el choque eléctrico, ésta posiblemente siente una pequeña sacudida de los músculos, pero no le hará  daño</p>
-                  <p class="p-info-4">Se recomienda acudir con su médico lo más pronto posible posterior a la descarga eléctrica para revisar tanto al paciente como al DAI, y verificar cual fue el motivo de la terapia</p>
+                <p>Actualmente el resincronizador viene acoplado con un Cardiodesfibrilador por lo cual la doble terapia va a beneficiar mucho mas al paciente. Y se deben de tener los mismos cuidados con ambos dispositivos. </p>
+
 
 
 
@@ -145,10 +151,9 @@
 
                   <hr class="hr-space" >
 
-                  <p class="p-info-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin, turpis sed fringilla dapibus, ante tortor convallis metus, eget interdum nunc ligula at risus. Sed ut tempus ipsum. Proin non elit vulputate, rutrum tortor tristique, tempus nisl. Ut auctor varius lacus et condimentum. Proin et consequat quam. Pellentesque arcu eros, iaculis ut lorem at, tincidunt egestas augue. Donec vel diam quis odio blandit dignissim laoreet vitae velit. Vestibulum iaculis mi eros, in blandit justo facilisis ultrices. Aliquam erat volutpat. Sed tincidunt, urna vitae tempus convallis, erat lacus mattis velit, ut sollicitudin eros felis id libero. Fusce lacus libero, faucibus eget est vehicula, posuere fermentum tortor. Praesent volutpat rhoncus mi et mollis. Integer non congue mi, sit amet mollis tortor.</p>
-                  <p class="p-info-4"> Sed tincidunt, urna vitae tempus convallis, erat lacus mattis velit, ut sollicitudin eros felis id libero. Fusce lacus libero, faucibus eget est vehicula, posuere fermentum tortor. Praesent volutpat rhoncus mi et mollis. Integer non congue mi, sit amet mollis tortor.</p>
-                  <p class="p-info-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin, turpis sed fringilla dapibus, ante tortor convallis metus, eget interdum nunc ligula at risus. Sed ut tempus ipsum. Proin non elit vulputate, rutrum tortor tristique, tempus nisl. Ut auctor varius lacus et condimentum. Proin et consequat quam. Pellentesque arcu eros, iaculis ut lorem at, tincidunt egestas augue. Donec vel diam quis odio blandit dignissim laoreet vitae velit</p>
-
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin, turpis sed fringilla dapibus, ante tortor convallis metus, eget interdum nunc ligula at risus. Sed ut tempus ipsum. Proin non elit vulputate, rutrum tortor tristique, tempus nisl. Ut auctor varius lacus et condimentum. Proin et consequat quam. Pellentesque arcu eros, iaculis ut lorem at, tincidunt egestas augue. Donec vel diam quis odio blandit dignissim laoreet vitae velit. Vestibulum iaculis mi eros, in blandit justo facilisis ultrices. Aliquam erat volutpat. Sed tincidunt, urna vitae tempus convallis, erat lacus mattis velit, ut sollicitudin eros felis id libero. Fusce lacus libero, faucibus eget est vehicula, posuere fermentum tortor. Praesent volutpat rhoncus mi et mollis. Integer non congue mi, sit amet mollis tortor.</p>
+                  <p> Sed tincidunt, urna vitae tempus convallis, erat lacus mattis velit, ut sollicitudin eros felis id libero. Fusce lacus libero, faucibus eget est vehicula, posuere fermentum tortor. Praesent volutpat rhoncus mi et mollis. Integer non congue mi, sit amet mollis tortor.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin, turpis sed fringilla dapibus, ante tortor convallis metus, eget interdum nunc ligula at risus. Sed ut tempus ipsum. Proin non elit vulputate, rutrum tortor tristique, tempus nisl. Ut auctor varius lacus et condimentum. Proin et consequat quam. Pellentesque arcu eros, iaculis ut lorem at, tincidunt egestas augue. Donec vel diam quis odio blandit dignissim laoreet vitae velit</p>
               </div>
           </div>
         
@@ -174,7 +179,7 @@
         <div class="footer-list-2 list-3">
            <h3>ENFERMEDADES</h3>
            <a href="#">Maracapaso</a>
-           <a href="#">Cardidesfibrilador</a>
+           <a href="#">Cardiodesfibrilador</a>
            <a href="#">Resincronizador</a>
            <a href="#">Estudio Electrorisiologico</a>
            <a href="#">Arritmias</a>
