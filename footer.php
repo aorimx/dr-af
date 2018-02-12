@@ -9,7 +9,7 @@
         <div class="footer-list list-2">
            <h3>SERVICIOS</h3>
            <a href="contacto">Consultas</a>
-           <a href="servicios">Enfermedades</a>
+           <a href="arritmias">Enfermedades</a>
            <a href="marcapaso">Dispositivos</a>
         </div>
         <div class="footer-list-2 list-3">

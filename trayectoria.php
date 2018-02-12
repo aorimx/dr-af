@@ -16,12 +16,12 @@
   <!--  Header  -->
   <div class="header-container">
     <header class="main-nav">
-      <a href="/">
+      <a href="index">
         <img src="assets/images/logos/isotipo.png" class="logo-header" alt="">
       </a>
       <nav role="navigation">
         <ul>
-          <a href="/">
+          <a href="index">
             <li>
               INICIO
             </li>
@@ -68,7 +68,7 @@
      <div class="aviso-content">
         <div class="llamanosTxt"> 
            <img src="assets/images/aviso/alert.svg" class="alertIcon" alt="">
-           <p>PARA EMERGENCIAS LLÁMENOS AL (33) 1242 7651</p>
+           <a href="tel:3312427651">PARA EMERGENCIAS LLÁMENOS AL (33) 1242 7651</a>
         </div>
         <img src="assets/images/aviso/x.svg" class="closeIcon" alt="">
      </div>
@@ -145,7 +145,7 @@
             <div class="labor-item">
               <img src="assets/images/trayectoria/hospital_icon.png" alt="">
               <p>Hospital</p>
-              <div class="item-hover">
+              <div class="item-hover-3">
                 <hr class="item-line">
                 <p>Encargado a la clínica de arritmias del Hospital Centro Médico Nacional de Occidente</p>
               </div>

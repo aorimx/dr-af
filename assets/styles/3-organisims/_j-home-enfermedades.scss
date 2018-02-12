@@ -17,7 +17,7 @@
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      width: 49%;
+      width: 44%;
       height: auto;
       @include tablet{
          align-items: center;
@@ -47,18 +47,24 @@
       }
       p{
          align-self: flex-start;
+         letter-spacing: 0;
+         font-size: 14px;
       }
       button{
          width: auto;
          font-family: Montserrat-Light;
          letter-spacing: 3px;
          color: $blue-cyan;
+         font-size: 14px;
          margin-top: 24px;
          padding: 8px 16px 6px 16px;
          background: #fff;
          border-radius: 0;
          border: 2px solid $blue-cyan;
          transition: all .2s ease-in-out;
+         @include mobile{
+            align-self: flex-start;
+         }
          a{
             color: $blue-cyan;
          }

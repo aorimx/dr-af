@@ -18,12 +18,12 @@
 
   <div class="header-container">
     <header class="main-nav">
-      <a href="/">
+      <a href="index">
         <img src="assets/images/logos/isotipo.png" class="logo-header" alt="">
       </a>
       <nav role="navigation">
         <ul>
-          <a href="/">
+          <a href="index">
             <li class="active-nav">
               INICIO
             </li>
@@ -69,9 +69,9 @@
   <div class="hero-image">
      <div class="hero-content">
         <div class="hero-text">
-           <h2 class="hero-title-blue">YO ME ENCARGO</h2>
-           <h2 class="hero-title-red">DE SU CORAZÓN</h2>
-           <p class="hero-p">No se preocupe por nada, usted déjeme su corazón a mi.</p>
+           <h2 class="hero-title-blue">DEJE SU CORAZÓN</h2>
+           <h2 class="hero-title-red">EN MIS MANOS</h2>
+           <p class="hero-p">No se preocupe, yo me encargo de cuidar su corazón.</p>
            <a href="#testimonios"><button>TESTIMONIOS</button></a>
         </div>
      </div>
@@ -79,7 +79,7 @@
       <div class="aviso-content">
         <div class="llamanosTxt"> 
           <img src="assets/images/aviso/alert.svg" class="alertIcon" alt="">
-          <p>PARA EMERGENCIAS LLÁMENOS AL (33) 1242 7651</p>
+          <a href="tel:3312427651">PARA EMERGENCIAS LLÁMENOS AL (33) 1242 7651</a>
         </div>
         <img src="assets/images/aviso/x.svg" class="closeIcon" alt="">
       </div>
@@ -99,7 +99,7 @@
                </div>
                <div class="bio-info">
                   <p class="p-info-gray">Médico Cirujano por la Universidad Autónoma de Aguascalientes con Especialidad en Cardiología Intervencionista en arritmias cardiacas por el Instituto Mexicano del Seguro Social y la Universidad de Guadalajara.</p>
-                  <p>El Dr. Arturo FLores Anguiano es médico cirujano mexicano especialista en Cardiología/Electrofisiología Cardiaca. Originario de la ciudad de Aguascalientes, donde realizó sus estudios iniciales, trasladandose a la ciudad de Guadalajara, Jalisco en 2002, para completar su especialidad.</p>
+                  <p>El Dr. Arturo Flores Anguiano es médico cirujano mexicano especialista en Cardiología/Electrofisiología Cardiaca. Originario de la ciudad de Aguascalientes, donde realizó sus estudios iniciales, trasladandose a la ciudad de Guadalajara, Jalisco en 2002, para completar su especialidad.</p>
                   <p>Ha sido un pionero en las ciencias médicas del siglo XXI, con estudios en campo de cardiología y en las arritmias cardiacas. Innovador en la aplicación...</p>
                   <button><a href="trayectoria.php">VER MÁS +</a></button>
                </div>
@@ -112,7 +112,8 @@
          </dvi>
      </section>
      <!-- slider Testimonios -->
-     <section class="testimonios" id="testimonios">
+     <section class="j-wrap">
+       <section class="testimonios" id="testimonios">
          <div class="testimonios-img">
             <img src="assets/images/biografia/4.png" alt="">
          </div>
@@ -169,6 +170,7 @@
                </div>
             </div>
          </div>
+      </section>
      </section>
      <!-- enfermedades -->
      <section class="j-wrap">
@@ -195,6 +197,7 @@
   <script src="assets/scripts/ripple.js"></script>
   <script src="assets/scripts/header.js"></script>
   <script src="assets/scripts/closeAd.js"></script>
+  <script src="assets/scripts/submenu.js"></script>
   <script>
       var slideIndex = 1;
 

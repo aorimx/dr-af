@@ -17,12 +17,12 @@
 
   <div class="header-container">
     <header class="main-nav">
-      <a href="/">
+      <a href="index">
         <img src="assets/images/logos/isotipo.png" class="logo-header" alt="">
       </a>
       <nav role="navigation">
         <ul>
-          <a href="/">
+          <a href="index">
             <li>
               INICIO
             </li>
@@ -70,7 +70,7 @@
      <div class="aviso-content">
         <div class="llamanosTxt"> 
            <img src="assets/images/aviso/alert.svg" class="alertIcon" alt="">
-           <p>PARA EMERGENCIAS LLÁMENOS AL (33) 1242 7651</p>
+           <a href="tel:3312427651">PARA EMERGENCIAS LLÁMENOS AL (33) 1242 7651</a>
         </div>
         <img src="assets/images/aviso/x.svg" class="closeIcon" alt="">
      </div>
@@ -181,6 +181,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="assets/scripts/ripple.js"></script>
   <script src="assets/scripts/header.js"></script>
-  <script src="assets/scripts/closeAd.js"></script>
+  <script src="assets/scripts/closeAdGeneral.js"></script>
 </body>
 </html>

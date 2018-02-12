@@ -11,7 +11,9 @@ $red: #ef2222;
 $blue-cyan: #6eaef9;
 $blue: #126bf8;
 $gray-text: #808080;
+$gray-border: #c0c0c0;
 $text-default: #333333;
+$gray-label: #707070;
 // Grayscale
 $gray-base:    lighten(#000, 0%);         .gray-base    { color: $gray-base;    };  .bg-gray-base    { background-color: $gray-base;    }
 $gray-darker:  lighten($gray-base, 15%);  .gray-darker  { color: $gray-darker;  };  .bg-gray-darker  { background-color: $gray-darker;  }

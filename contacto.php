@@ -16,12 +16,12 @@
   <!--  Header  -->
   <div class="header-container">
     <header class="main-nav">
-      <a href="/">
+      <a href="index">
         <img src="assets/images/logos/isotipo.png" class="logo-header" alt="">
       </a>
       <nav role="navigation">
         <ul>
-          <a href="/">
+          <a href="index">
             <li>
               INICIO
             </li>
@@ -68,7 +68,7 @@
      <div class="aviso-content">
         <div class="llamanosTxt"> 
            <img src="assets/images/aviso/alert.svg" class="alertIcon" alt="">
-           <p>PARA EMERGENCIAS LLÁMENOS AL (33) 1242 7651</p>
+           <a href="tel:3312427651">PARA EMERGENCIAS LLÁMENOS AL (33) 1242 7651</a>
         </div>
         <img src="assets/images/aviso/x.svg" class="closeIcon" alt="">
      </div>
@@ -76,10 +76,8 @@
 
   <!--  Main content -->
   <main class="j-workspace ">
-    <div class="j-wrap">
-      <h2 class="blue-title contacto-title">CONTACTO</h2>
-    </div>
      <section class="j-wrap-80">
+      <h2 class="blue-title contacto-title">CONTACTO</h2>
       <div class="contacto">
           <form class="contacto-form" id="contact-form" action="#" method="POST" enctype="multipart/form-data">
             <input type="hidden" name="_token" value="{{ csrf_token() }}"/>

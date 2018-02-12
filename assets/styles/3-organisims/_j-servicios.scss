@@ -58,6 +58,7 @@
             }
             .hr-space{
                margin-top: 0;
+               border-color: $gray-border;
             }
 
          }
@@ -90,12 +91,20 @@
                      font-size: 14px;
                   }
                   &-info-1{
+                    font-size: 26px;
                      color: $red;
                      margin-bottom: 0px;
+                     @include mobile{
+                       text-align: center;
+                     }
                   }
                   &-info-2{
+                    font-size: 26px;
                      color:$blue;
                      margin-bottom: $space-5;
+                     @include mobile{
+                      text-align: center;
+                    }
                   }
                }
             //}
