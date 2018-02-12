@@ -192,5 +192,6 @@
   <script src="assets/scripts/header.js"></script>
   <script src="assets/scripts/closeAdGeneral.js"></script>
   <script src="assets/scripts/compartir.js"></script> 
+  <script src="assets/scripts/submenu.js"></script>
 </body>
 </html>

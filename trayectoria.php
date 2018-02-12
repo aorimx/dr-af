@@ -159,5 +159,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="assets/scripts/header.js"></script>
   <script src="assets/scripts/closeAdGeneral.js"></script>
+  <script src="assets/scripts/submenu.js"></script>
 </body>
 </html>

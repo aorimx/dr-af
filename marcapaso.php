@@ -255,6 +255,7 @@
   <script src="assets/scripts/ripple.js"></script>
   <script src="assets/scripts/header.js"></script>
   <script src="assets/scripts/closeAdGeneral.js"></script>
+  <script src="assets/scripts/submenu.js"></script>
   <script src="assets/scripts/compartir.js"></script> 
 </body>
 </html>

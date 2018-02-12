@@ -690,7 +690,7 @@ img {
   justify-content: center;
   align-items: center;
   width: auto;
-  font-family: 'Lato-Light';
+  font-family: 'Montserrat-Light';
   color: #fff;
   font-size: 26px;
   letter-spacing: 4px;
@@ -703,7 +703,7 @@ img {
   justify-content: center;
   align-items: center;
   width: auto;
-  font-family: 'Lato-Light';
+  font-family: 'Montserrat-Light';
   color: #fff;
   font-size: 26px;
   letter-spacing: 4px;
@@ -1305,7 +1305,7 @@ header.main-nav.responsive {
         justify-content: center;
         align-items: center;
         width: auto;
-        font-family: 'Lato-Light';
+        font-family: 'Montserrat-Light';
         color: #fff;
         font-size: 26px;
         letter-spacing: 4px;
@@ -1566,7 +1566,7 @@ header.main-nav.responsive {
       justify-content: center;
       align-items: center;
       width: auto;
-      font-family: 'Lato-Light';
+      font-family: 'Montserrat-Light';
       color: #fff;
       font-size: 26px;
       letter-spacing: 4px;
@@ -1737,7 +1737,8 @@ header.main-nav.responsive {
       margin-top: 40px;
       padding-top: 56px; } }
   .labor-title h2 {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-family: Montserrat-Light; }
     @media screen and (max-width: 600px) {
       .labor-title h2 {
         align-self: center; } }
@@ -2355,7 +2356,7 @@ footer {
       justify-content: center;
       align-items: center;
       width: auto;
-      font-family: 'Lato-Light';
+      font-family: 'Montserrat-Light';
       color: #fff;
       font-size: 26px;
       letter-spacing: 4px;
@@ -2473,7 +2474,7 @@ footer {
           justify-content: center;
           align-items: center;
           width: 100%;
-          font-family: 'Lato-Light';
+          font-family: 'Montserrat-Light';
           color: #fff;
           font-size: 26px;
           letter-spacing: 4px;
