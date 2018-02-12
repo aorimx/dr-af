@@ -7,8 +7,7 @@ $pais = $_POST["pais"];
 $estado = $_POST["estado"];
 $asunto = $_POST["asunto"];
 $message = $_POST["mensaje"];
-$victor = 'kikinbmk10@gmail.com';
-$victor2 = 'arturofa98@hotmail.com';
+$victor = 'arturofa98@hotmail.com';
 
 // Si cualquier línea es más larga de 70 caracteres, se debería usar wordwrap()
 $mensaje ='<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
