@@ -1154,7 +1154,11 @@ header.main-nav.responsive {
       box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, 0.1); }
       @media screen and (max-width: 600px) {
         header.main-nav.responsive nav .ul-sub-menu-visbly {
-          box-shadow: none; } }
+          width: 100%;
+          margin-top: 16px;
+          padding-left: 0;
+          padding-right: 0;
+          box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.2); } }
   header.main-nav.responsive #nav-icon span {
     background: #333333; }
 
@@ -1282,7 +1286,11 @@ header.main-nav.responsive {
   box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, 0.1); }
   @media screen and (max-width: 600px) {
     .ul-sub-menu-visbly {
-      box-shadow: none; } }
+      width: 100%;
+      margin-top: 16px;
+      padding-left: 0;
+      padding-right: 0;
+      box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.2); } }
 
 .biografia-container {
   width: 100%;
