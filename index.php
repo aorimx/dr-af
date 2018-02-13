@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Dr. Arturo Flores</title>
   <meta name="description" content="El Dr. Arturo FLores Anguiano es médico cirujano mexicano especialista en Cardiología/Electrofisiología Cardiaca. Originario de la ciudad de Aguascalientes, donde realizó sus estudios iniciales, trasladandose a la ciudad de Guadalajara, Jalisco en 2002, para completar su especialidad."> 
-  <link rel="icon" type="image/png" href="assets/images/logos/isotipo.png">
+  <link rel="icon" type="image/png" href="assets/images/favicon-01.png">
   <!-- [#TODO] Dont forget to update the FAVICON IMAGES in the next route -->
   <!-- <link rel="icon" type="image/png" href="assets/images/favicon-180x180.png" sizes="128x128"> -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" integrity="sha256-K3Njjl2oe0gjRteXwX01fQD5fkk9JFFBdUHy/h38ggY=" crossorigin="anonymous" rel="stylesheet">
@@ -71,7 +71,7 @@
         <div class="hero-text">
            <h2 class="hero-title-blue">DEJE SU CORAZÓN</h2>
            <h2 class="hero-title-red">EN MIS MANOS</h2>
-           <p class="hero-p">No se preocupe, yo me encargo de cuidar su corazón.</p>
+           <p class="hero-p">No se preocupe, yo me encargo de cuidar su corazón</p>
            <a href="#testimonios"><button>TESTIMONIOS</button></a>
         </div>
      </div>

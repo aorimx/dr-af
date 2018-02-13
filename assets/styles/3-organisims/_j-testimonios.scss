@@ -26,6 +26,10 @@
         width: auto;
         height: 400px;
         margin-bottom: 0;
+        @include tablet{
+            height: auto;
+            width: 100%;
+        }
 
         @include mobile{
             height: auto;
@@ -43,6 +47,7 @@
          align-items: center;
          width: 100%;
          justify-content: center;
+         margin-left: 0;
       }
 
       .test-slider-content{
@@ -55,7 +60,7 @@
          }
          @include tablet{
             width: 100%;
-            height: 400px;
+            height: 464px;
             justify-content: center;
          }
 
@@ -186,7 +191,7 @@
                    left: -40px;
                 }
                 @include mobile{
-                    left: -28px;
+                    left: -20px;
                 }
                 img{
                    width: 40px;

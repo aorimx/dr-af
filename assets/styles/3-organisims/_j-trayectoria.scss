@@ -280,13 +280,13 @@
    }
    .item-hover-2{
       position: absolute;
-      top: -50%;
+      top: -70%;
       z-index: 4;
       flex-direction: column;
-      width: 152%;
+      width: 158%;
       letter-spacing: 0;
-      padding: 64px 56px;
-      background: $white;
+      padding: 64px 56px 64px 88px;
+      background: #ffffff;
       border-radius: 100%;
       box-shadow: 0px 0px 16px 1px rgba(0,0,0,.2);
       opacity: 0;

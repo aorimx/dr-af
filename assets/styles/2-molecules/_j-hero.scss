@@ -74,9 +74,9 @@
       line-height: .8;
       margin-bottom: 0;
       @include tablet{
-        font-size: 82px;
+        font-size: 72px;
         letter-spacing: 1px;
-        margin-bottom: 16px;
+        margin-bottom: 8px;
       }
       @include mobile{
         font-size: 30px;
@@ -92,7 +92,7 @@
       line-height: 1;
       margin-bottom: 0;
       @include tablet{
-        font-size: 82px;
+        font-size: 72px;
         letter-spacing: 1px;
         margin-bottom: 16px;
         line-height: 1;
@@ -116,10 +116,12 @@
   }
   .img-heart{
     position: absolute;
-    bottom: -67%;
+    bottom: -60%;
     right: -15%;
-    width: 54%;
+    width: 48%;
     z-index: 3;
+    opacity: 0.5;
+    
     @include ipadPro{
       display: none;
     }
