@@ -1862,6 +1862,7 @@ header.main-nav.responsive {
     z-index: 4;
     flex-direction: column;
     width: 344px;
+    height: 344px;
     letter-spacing: 0;
     padding: 80px 40px;
     background: #ffffff;
@@ -1875,6 +1876,7 @@ header.main-nav.responsive {
       .labor-images-container .item-hover {
         top: -20%;
         width: 104%;
+        height: auto;
         padding: 56px 40px;
         background: #ffffff;
         border-radius: 28%; } }
@@ -1900,6 +1902,7 @@ header.main-nav.responsive {
     z-index: 4;
     flex-direction: column;
     width: 440px;
+    height: 440px;
     letter-spacing: 0;
     padding: 64px 56px 64px 88px;
     background: #ffffff;
@@ -1912,6 +1915,7 @@ header.main-nav.responsive {
     @media screen and (max-width: 900px) {
       .labor-images-container .item-hover-2 {
         width: 110%;
+        height: auto;
         padding: 56px 40px;
         background: #ffffff;
         border-radius: 28%; } }
@@ -1943,6 +1947,7 @@ header.main-nav.responsive {
     z-index: 4;
     flex-direction: column;
     width: 328px;
+    height: 328px;
     letter-spacing: 0;
     padding: 80px 40px;
     background: #ffffff;
@@ -1956,6 +1961,7 @@ header.main-nav.responsive {
       .labor-images-container .item-hover-3 {
         top: -20%;
         width: 104%;
+        height: auto;
         padding: 56px 40px;
         background: #ffffff;
         border-radius: 28%; } }
