@@ -1861,7 +1861,7 @@ header.main-nav.responsive {
     left: 0;
     z-index: 4;
     flex-direction: column;
-    width: 124%;
+    width: 344px;
     letter-spacing: 0;
     padding: 80px 40px;
     background: #ffffff;
@@ -1899,7 +1899,7 @@ header.main-nav.responsive {
     top: -70%;
     z-index: 4;
     flex-direction: column;
-    width: 158%;
+    width: 440px;
     letter-spacing: 0;
     padding: 64px 56px 64px 88px;
     background: #ffffff;
@@ -1942,7 +1942,7 @@ header.main-nav.responsive {
     left: 0;
     z-index: 4;
     flex-direction: column;
-    width: 116%;
+    width: 328px;
     letter-spacing: 0;
     padding: 80px 40px;
     background: #ffffff;
