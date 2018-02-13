@@ -111,7 +111,7 @@
                 <p class="p-info-1">insuficiencia</p>
                 <p class="p-info-2">cardiaca</p>
                 <p class="p-info-5">Dr. Arturo Flores / Cardiólogo </p>
-                <p class="p-info-2">&nbsp;</p>
+                 
 
                 <p class="p-info-3">¿Qué es la insuficiencia Cardiaca?</p>
 

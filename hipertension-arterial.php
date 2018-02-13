@@ -111,7 +111,7 @@
                 <p class="p-info-1">hipertensión</p>
                 <p class="p-info-2">arterial</p>
                 <p class="p-info-5">Dr. Arturo Flores / Cardiólogo </p>
-                <p class="p-info-2">&nbsp;</p>
+                 
 
 
                 <p class="p-info-3">¿Qué es la hipertensión arterial?</p>

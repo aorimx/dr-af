@@ -111,12 +111,11 @@
                 <p class="p-info-1">estudio</p>
                 <p class="p-info-2">electrofisiológico</p>
                 <p class="p-info-5">Dr. Arturo Flores / Cardiólogo </p>
-                <p class="p-info-2">&nbsp;</p>
+               
 
 
                 <p class="p-info-3">¿Qué es y para qué sirve un Estudio Electrofisiológico?<p>
                 <p>Es un procedimiento que permite  estudiar las alteraciones del ritmo cardiaco (arritmias). </p>
-
                 <p>Hay dos tipos de Arritmias las lentas llamadas Bradicardias y las rápidas llamadas taquicardias.</p>
                 <p>Ambas se pueden estudiar en este procedimiento, sin embargo, es mas indicado para el tratamiento de las taquicardias, donde puede curar estas arritmias</p>
 

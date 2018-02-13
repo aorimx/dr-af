@@ -110,7 +110,7 @@
               <div class="left-side info">
                 <p class="p-info-2">arritmias</p>
                 <p class="p-info-5">Dr. Arturo Flores / Cardiólogo </p>
-                <p class="p-info-2">&nbsp;</p>
+                 
 
 
 

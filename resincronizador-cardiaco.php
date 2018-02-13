@@ -111,7 +111,7 @@
                 <p class="p-info-1">resincronizador</p>
                 <p class="p-info-2">cardiaco</p>
                 <p class="p-info-5">Dr. Arturo Flores / Cardiólogo </p>
-                <p class="p-info-2">&nbsp;</p>
+                 
 
                 <p class="p-info-3">¿Qué es un Resincronizador Cardiaco?</p>
                 <p>Es un dispositivo tipo marcapaso, que ayuda al corazón a que sincronice su latido para darle mar fuerza y mejorar la cantidad de sangre que sale del corazón a todo el cuerpo</p>

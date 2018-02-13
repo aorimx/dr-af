@@ -110,7 +110,7 @@
               <div class="left-side info">
                 <p class="p-info-2">infartos</p>
                 <p class="p-info-5">Dr. Arturo Flores / Cardiólogo </p>
-                <p class="p-info-2">&nbsp;</p>
+                 
 
                 <p class="p-info-3"> ¿Qué es un infarto?</p>
                 <p>Es cuando una de las paredes del corazón se muere por falta de sangre debido a que una arteria del corazón se ocluyó</p>

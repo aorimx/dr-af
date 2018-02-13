@@ -163,7 +163,8 @@
             letter-spacing: 3px;
             margin-left: 80px;
             @include mobile{
-                width: 60%;
+                width: 63%;
+                font-family: Montserrat-Regular;
                 margin-left: 8px;
             }
     
@@ -184,7 +185,8 @@
             color: $color-inverse;
     
             @include mobile{
-                font-size: 10px;
+                font-size: 12px;
+                letter-spacing: 0;
             }
         }
     

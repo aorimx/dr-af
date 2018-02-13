@@ -111,7 +111,7 @@
                 <p class="p-info-1">cardio</p>
                 <p class="p-info-2">desfibrilador</p>
                 <p class="p-info-5">Dr. Arturo Flores / Cardiólogo </p>
-                <p class="p-info-2">&nbsp;</p>
+                 
 
 
                 <p class="p-info-3">¿Qué es un Desfibrilador Automático Implantable (DAI)?</p>

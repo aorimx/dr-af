@@ -318,6 +318,10 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column; }
+    @media screen and (max-width: 600px) {
+      .j-workspace .j-wrap {
+        padding-left: 20px;
+        padding-right: 20px; } }
   .j-workspace .j-wrap-80 {
     margin: 0 auto;
     padding-left: 16px;
@@ -871,7 +875,8 @@ img {
       margin-left: 80px; }
       @media screen and (max-width: 600px) {
         .hero-aviso .aviso-content .llamanosTxt {
-          width: 60%;
+          width: 63%;
+          font-family: Montserrat-Regular;
           margin-left: 8px; } }
       .hero-aviso .aviso-content .llamanosTxt img {
         margin-right: 24px; }
@@ -886,7 +891,8 @@ img {
       color: #FFF; }
       @media screen and (max-width: 600px) {
         .hero-aviso .aviso-content a {
-          font-size: 10px; } }
+          font-size: 12px;
+          letter-spacing: 0; } }
     .hero-aviso .aviso-content .closeIcon {
       margin: 0;
       cursor: pointer;
@@ -958,7 +964,8 @@ img {
       margin-left: 80px; }
       @media screen and (max-width: 600px) {
         .aviso-general .aviso-content .llamanosTxt {
-          width: 60%;
+          width: 63%;
+          font-family: Montserrat-Regular;
           margin-left: 8px; } }
       .aviso-general .aviso-content .llamanosTxt img {
         margin-right: 24px; }
@@ -973,7 +980,8 @@ img {
       color: #FFF; }
       @media screen and (max-width: 600px) {
         .aviso-general .aviso-content a {
-          font-size: 10px; } }
+          font-size: 12px;
+          letter-spacing: 0; } }
     .aviso-general .aviso-content .closeIcon {
       margin: 0;
       cursor: pointer;
@@ -1378,6 +1386,10 @@ header.main-nav.responsive {
     .testimonios {
       flex-direction: column;
       height: auto; } }
+  @media screen and (max-width: 600px) {
+    .testimonios {
+      margin-top: 32px;
+      box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2); } }
   .testimonios .testimonios-img {
     display: flex;
     width: auto;
@@ -1398,7 +1410,7 @@ header.main-nav.responsive {
           width: 100%; } }
       @media screen and (max-width: 600px) {
         .testimonios .testimonios-img img {
-          height: auto;
+          height: 50%;
           width: 100%; } }
   .testimonios .testimonios-spaceWhite {
     display: flex;
@@ -1420,10 +1432,10 @@ header.main-nav.responsive {
           width: 100%;
           height: 416px;
           justify-content: center; } }
-      @media screen and (max-width: 900px) {
+      @media screen and (max-width: 600px) {
         .testimonios .testimonios-spaceWhite .test-slider-content {
           width: 100%;
-          height: 464px;
+          height: 520px;
           justify-content: center; } }
       .testimonios .testimonios-spaceWhite .test-slider-content .itemsSlider {
         max-width: 1232px;
@@ -1455,6 +1467,7 @@ header.main-nav.responsive {
               padding: 0 40px; } }
           @media screen and (max-width: 600px) {
             .testimonios .testimonios-spaceWhite .test-slider-content .itemsSlider .sliderContent {
+              width: 75%;
               align-items: center;
               padding: 0px 0px; } }
           .testimonios .testimonios-spaceWhite .test-slider-content .itemsSlider .sliderContent h2 {
@@ -1463,7 +1476,7 @@ header.main-nav.responsive {
             align-items: center;
             align-self: center;
             width: auto;
-            font-family: 'Lato-Light';
+            font-family: 'Montserrat-Light';
             color: #fff;
             font-size: 26px;
             letter-spacing: 4px;
@@ -1472,7 +1485,7 @@ header.main-nav.responsive {
             background: #ef2222; }
             @media screen and (max-width: 600px) {
               .testimonios .testimonios-spaceWhite .test-slider-content .itemsSlider .sliderContent h2 {
-                font-size: 22px;
+                font-size: 20px;
                 text-align: center;
                 letter-spacing: 2px;
                 margin-bottom: 24px;
@@ -1532,6 +1545,9 @@ header.main-nav.responsive {
           .testimonios .testimonios-spaceWhite .test-slider-content .itemsSlider #btn2 img {
             width: 40px;
             height: auto; }
+            @media screen and (max-width: 600px) {
+              .testimonios .testimonios-spaceWhite .test-slider-content .itemsSlider #btn2 img {
+                width: 28px; } }
         @media screen and (max-width: 900px) {
           .testimonios .testimonios-spaceWhite .test-slider-content .itemsSlider #btn1 {
             left: -40px; } }
@@ -1541,6 +1557,9 @@ header.main-nav.responsive {
         .testimonios .testimonios-spaceWhite .test-slider-content .itemsSlider #btn1 img {
           width: 40px;
           height: auto; }
+          @media screen and (max-width: 600px) {
+            .testimonios .testimonios-spaceWhite .test-slider-content .itemsSlider #btn1 img {
+              width: 28px; } }
         .testimonios .testimonios-spaceWhite .test-slider-content .itemsSlider .slides {
           display: none; }
 
@@ -1557,7 +1576,8 @@ header.main-nav.responsive {
   @media screen and (max-width: 600px) {
     .home-enfermedades-container {
       flex-direction: column;
-      padding-left: 0; } }
+      padding-left: 0;
+      margin-top: 32px; } }
   .home-enfermedades-container .home-enfermedades-info {
     display: flex;
     flex-direction: column;
@@ -1570,7 +1590,8 @@ header.main-nav.responsive {
         width: 95%; } }
     @media screen and (max-width: 600px) {
       .home-enfermedades-container .home-enfermedades-info {
-        width: 100%; } }
+        width: 100%;
+        order: 2; } }
     .home-enfermedades-container .home-enfermedades-info .enfermedades-h2 {
       display: flex;
       justify-content: center;
@@ -1587,7 +1608,7 @@ header.main-nav.responsive {
         .home-enfermedades-container .home-enfermedades-info .enfermedades-h2 {
           font-size: 22px;
           letter-spacing: 3px;
-          padding: 16px 32px 12px 32px; } }
+          padding: 16px 24px 12px 24px; } }
     .home-enfermedades-container .home-enfermedades-info p {
       align-self: flex-start;
       letter-spacing: 0;
@@ -1654,8 +1675,8 @@ header.main-nav.responsive {
       margin-top: 48px; } }
   @media screen and (max-width: 600px) {
     .trayectoria-title h2 {
-      font-size: 24px;
-      letter-spacing: 3px; } }
+      font-size: 23px;
+      letter-spacing: 2px; } }
 
 .trayectoria-desc-content {
   display: flex;
@@ -1854,7 +1875,13 @@ header.main-nav.responsive {
     @media screen and (max-width: 600px) {
       .labor-images-container .labor-item {
         width: 90%;
-        margin-bottom: 80px; } }
+        margin-bottom: 24px;
+        box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2); } }
+    @media screen and (max-width: 600px) {
+      .labor-images-container .labor-item img {
+        margin-top: 32px;
+        margin-left: 0;
+        margin-right: 0; } }
   .labor-images-container .item-hover {
     position: absolute;
     top: -40%;
@@ -1882,7 +1909,18 @@ header.main-nav.responsive {
         border-radius: 28%; } }
     @media screen and (max-width: 600px) {
       .labor-images-container .item-hover {
-        left: auto; } }
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 4;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 8px 24px;
+        box-shadow: none;
+        opacity: 1;
+        transform: scale(1);
+        transition: all .4s ease-in-out; } }
     .labor-images-container .item-hover .item-line {
       width: 56px;
       align-self: flex-start;
@@ -1921,9 +1959,21 @@ header.main-nav.responsive {
         border-radius: 28%; } }
     @media screen and (max-width: 600px) {
       .labor-images-container .item-hover-2 {
-        width: 110%;
-        padding: 32px 40px;
-        border-radius: 18%; } }
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 4;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding-top: 8px;
+        padding-right: 24px;
+        padding-bottom: 24px;
+        padding-left: 24px;
+        box-shadow: none;
+        opacity: 1;
+        transform: scale(1);
+        transition: all .4s ease-in-out; } }
     @media screen and (max-width: 900px) {
       .labor-images-container .item-hover-2 p {
         margin-bottom: 0; } }
@@ -1967,7 +2017,21 @@ header.main-nav.responsive {
         border-radius: 28%; } }
     @media screen and (max-width: 600px) {
       .labor-images-container .item-hover-3 {
-        left: auto; } }
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 4;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding-top: 8px;
+        padding-right: 24px;
+        padding-bottom: 8px;
+        padding-left: 24px;
+        box-shadow: none;
+        opacity: 1;
+        transform: scale(1);
+        transition: all .4s ease-in-out; } }
     .labor-images-container .item-hover-3 .item-line {
       width: 56px;
       align-self: flex-start;
@@ -2136,7 +2200,7 @@ footer {
           letter-spacing: 3px; }
           @media screen and (max-width: 600px) {
             footer .ft-section-down .ft-inner .ft-title-content p {
-              font-size: 17px;
+              font-size: 10px;
               letter-spacing: 1px; } }
         footer .ft-section-down .ft-inner .ft-title-content .dgp-content {
           display: flex;
@@ -2168,7 +2232,7 @@ footer {
             flex-direction: column;
             justify-content: flex-start;
             align-items: center;
-            margin-top: 24px; } }
+            margin-top: 16px; } }
         footer .ft-section-down .ft-inner .ft-adress-content .ft-adress-inner {
           display: flex;
           flex-wrap: nowrap;
@@ -2244,7 +2308,8 @@ footer {
           footer .ft-section-down .ft-inner .ft-copyright-content {
             flex-direction: column;
             padding-top: 32px;
-            padding-bottom: 24px; } }
+            padding-bottom: 24px;
+            margin-top: 8px; } }
         footer .ft-section-down .ft-inner .ft-copyright-content p {
           font-family: Montserrat-Regular;
           font-size: 12px;
@@ -2274,6 +2339,10 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column; }
+    @media screen and (max-width: 600px) {
+      .contacto .contacto-form {
+        padding-left: 24px;
+        padding-right: 24px; } }
     .contacto .contacto-form .form-container {
       width: 100%;
       display: flex;
@@ -2387,6 +2456,11 @@ footer {
     display: flex;
     width: 100%;
     margin-top: 88px; }
+    @media screen and (max-width: 600px) {
+      .services-container .services-content .service {
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px; } }
     .services-container .services-content .service .line {
       display: flex;
       width: 45%;
@@ -2425,6 +2499,7 @@ footer {
         margin-bottom: 0px; }
         @media screen and (max-width: 600px) {
           .services-container .services-content .service .info .p-info-1 {
+            letter-spacing: 1px;
             text-align: center; } }
       .services-container .services-content .service .info .p-info-2 {
         font-size: 26px;
@@ -2432,6 +2507,8 @@ footer {
         margin-bottom: 40px; }
         @media screen and (max-width: 600px) {
           .services-container .services-content .service .info .p-info-2 {
+            line-height: 1.1;
+            letter-spacing: 1px;
             text-align: center; } }
 
 .illness-container {
@@ -2534,6 +2611,11 @@ footer {
             font-family: Montserrat-Light;
             letter-spacing: 2px;
             line-height: 1; }
+            @media screen and (max-width: 600px) {
+              .illness-container .illness-content .illness .info p.p-info-1 {
+                font-size: 25px;
+                font-family: Montserrat-Light;
+                letter-spacing: 0; } }
           .illness-container .illness-content .illness .info p.p-info-2 {
             color: #126bf8;
             margin-bottom: 0px;
@@ -2541,6 +2623,11 @@ footer {
             font-size: 40px;
             font-family: Montserrat-Light;
             letter-spacing: 4px; }
+            @media screen and (max-width: 600px) {
+              .illness-container .illness-content .illness .info p.p-info-2 {
+                font-size: 25px;
+                font-family: Montserrat-Light;
+                letter-spacing: 0; } }
           .illness-container .illness-content .illness .info p.p-info-3 {
             margin-top: 24px;
             margin-bottom: 16px;
@@ -2550,10 +2637,13 @@ footer {
             font-family: Montserrat-Italic; }
           .illness-container .illness-content .illness .info p.p-info-5 {
             margin-top: 16px;
-            margin-bottom: 24px;
+            margin-bottom: 32px;
             color: #808080;
             font-size: 14px;
             font-family: Montserrat-Light; }
+            @media screen and (max-width: 600px) {
+              .illness-container .illness-content .illness .info p.p-info-5 {
+                margin-bottom: 16px; } }
           .illness-container .illness-content .illness .info p.p-space {
             font-size: 32px;
             margin-bottom: 0;
