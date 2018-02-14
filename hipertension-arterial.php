@@ -95,8 +95,6 @@
                     </div>
                 </div>
           </div>
-
-
           <div class="illness">
                   <div class="left-side info">
                     <p class="p-info-5 date">22, Enero 2018</p>
@@ -104,8 +102,6 @@
                   <div class="right-side">
                   </div>
            </div>
-
-
           <div class="illness">
               <div class="left-side info">
                 <p class="p-info-1">hipertensión</p>
@@ -172,10 +168,14 @@
                   <p class="p-quote-name">-Jhon Snow</p>
 
                   <hr class="hr-space" >
-
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin, turpis sed fringilla dapibus, ante tortor convallis metus, eget interdum nunc ligula at risus. Sed ut tempus ipsum. Proin non elit vulputate, rutrum tortor tristique, tempus nisl. Ut auctor varius lacus et condimentum. Proin et consequat quam. Pellentesque arcu eros, iaculis ut lorem at, tincidunt egestas augue. Donec vel diam quis odio blandit dignissim laoreet vitae velit. Vestibulum iaculis mi eros, in blandit justo facilisis ultrices. Aliquam erat volutpat. Sed tincidunt, urna vitae tempus convallis, erat lacus mattis velit, ut sollicitudin eros felis id libero. Fusce lacus libero, faucibus eget est vehicula, posuere fermentum tortor. Praesent volutpat rhoncus mi et mollis. Integer non congue mi, sit amet mollis tortor.</p>
-                  <p> Sed tincidunt, urna vitae tempus convallis, erat lacus mattis velit, ut sollicitudin eros felis id libero. Fusce lacus libero, faucibus eget est vehicula, posuere fermentum tortor. Praesent volutpat rhoncus mi et mollis. Integer non congue mi, sit amet mollis tortor.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin, turpis sed fringilla dapibus, ante tortor convallis metus, eget interdum nunc ligula at risus. Sed ut tempus ipsum. Proin non elit vulputate, rutrum tortor tristique, tempus nisl. Ut auctor varius lacus et condimentum. Proin et consequat quam. Pellentesque arcu eros, iaculis ut lorem at, tincidunt egestas augue. Donec vel diam quis odio blandit dignissim laoreet vitae velit</p>
+                  <p class="p-info-6">insuficiencia</p>
+                  <p class="p-info-7">cardiaca</p>
+                  <p class="p-info-3">¿Qué es la insuficiencia Cardiaca?</p>
+                  <p>Es cuando el corazón se enferma y pierde fuerza,   ya no siendo capaz de “bombear” la sangre de una manera adecuada a todo el cuerpo, por lo que la sangre se puede acumular como presa en algunos otros órganos, como  pulmones, hígado y las piernas.</p>
+                  <p class="p-info-3">¿Cuáles son los síntomas de insuficiencia cardiaca?</p>
+                  <p>El síntomas primordial es Incapacidad progresiva para respirar, a lo cual se le conoce como Disnea.</p>
+                  <p>El paciente  le cuesta, poco a poco, más trabajo realizar ejercicio o sus actividades normales...</p>
+                  <a href="insuficiencia-cardiaca"><button class="btn-ver-mas">VER MAS +</button></a>
               </div>
           </div>
           <div class="illness-social-media">

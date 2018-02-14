@@ -229,11 +229,15 @@
                     <p class="p-quote-name">-Jhon Snow</p>
 
                     <hr class="hr-space" >
-
-                    <p class="p-info-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin, turpis sed fringilla dapibus, ante tortor convallis metus, eget interdum nunc ligula at risus. Sed ut tempus ipsum. Proin non elit vulputate, rutrum tortor tristique, tempus nisl. Ut auctor varius lacus et condimentum. Proin et consequat quam. Pellentesque arcu eros, iaculis ut lorem at, tincidunt egestas augue. Donec vel diam quis odio blandit dignissim laoreet vitae velit. Vestibulum iaculis mi eros, in blandit justo facilisis ultrices. Aliquam erat volutpat. Sed tincidunt, urna vitae tempus convallis, erat lacus mattis velit, ut sollicitudin eros felis id libero. Fusce lacus libero, faucibus eget est vehicula, posuere fermentum tortor. Praesent volutpat rhoncus mi et mollis. Integer non congue mi, sit amet mollis tortor.</p>
-                    <p class="p-info-4"> Sed tincidunt, urna vitae tempus convallis, erat lacus mattis velit, ut sollicitudin eros felis id libero. Fusce lacus libero, faucibus eget est vehicula, posuere fermentum tortor. Praesent volutpat rhoncus mi et mollis. Integer non congue mi, sit amet mollis tortor.</p>
-                    <p class="p-info-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin, turpis sed fringilla dapibus, ante tortor convallis metus, eget interdum nunc ligula at risus. Sed ut tempus ipsum. Proin non elit vulputate, rutrum tortor tristique, tempus nisl. Ut auctor varius lacus et condimentum. Proin et consequat quam. Pellentesque arcu eros, iaculis ut lorem at, tincidunt egestas augue. Donec vel diam quis odio blandit dignissim laoreet vitae velit</p>
-
+                    <p class="p-info-6">cardio</p>
+                    <p class="p-info-7">desfibrilador</p>
+                    <p class="p-info-3">¿Qué es un Desfibrilador Automático Implantable (DAI)?</p>
+                    <p>Es un dispositivo inteligente que detecta arritmias cardiacas letales, enviando rápidamente una descarga eléctrica al corazón. Esta cambia el ritmo de nuevo a la normalidad. Esto se denomina desfibrilación.</p>
+                    <p class="p-info-3">¿Que es una arritmia letal?</p>
+                    <p>Las arritmias son alteraciones del latido normal del corazón,  se dividen en dos:  lentas y rápidas. </p>
+                    <p>Para las arritmias lenta generalmente se debe de tratar con un marcapaso...</p>
+                    <a href="cardiodesfibrilador"><button class="btn-ver-mas">VER MAS +</button></a>
+                   
               </div>
             </div>
             <div class="illness-social-media">

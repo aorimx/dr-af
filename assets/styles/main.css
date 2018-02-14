@@ -305,6 +305,9 @@ body {
 .margin-48 {
   margin-top: 48px; }
 
+.margin-16 {
+  margin-top: 16px; }
+
 .active-nav {
   color: #ef2222 !important; }
 
@@ -1012,10 +1015,10 @@ img {
       height: auto; } }
 
 .nav-collapse {
-  top: -81px; }
+  top: -95px; }
   @media screen and (max-width: 992px) {
     .nav-collapse {
-      top: -61px; } }
+      top: -72px; } }
 
 header.main-nav {
   max-width: 1232px;
@@ -2564,6 +2567,28 @@ footer {
           .illness-container .illness-content .illness .right-side {
             width: 100%;
             padding-left: 0; } }
+        .illness-container .illness-content .illness .right-side a {
+          align-self: flex-end;
+          color: #6eaef9; }
+          .illness-container .illness-content .illness .right-side a .btn-ver-mas {
+            width: auto;
+            font-family: Montserrat-Light;
+            letter-spacing: 3px;
+            color: #6eaef9;
+            font-size: 14px;
+            margin-top: 24px;
+            background: #fff;
+            border-radius: 0;
+            border: 2px solid #6eaef9;
+            padding: 8px 16px 6px 16px;
+            transition: all .2s ease-in-out; }
+        .illness-container .illness-content .illness .right-side a:hover {
+          color: #ffffff; }
+          .illness-container .illness-content .illness .right-side a:hover .btn-ver-mas {
+            color: #ffffff;
+            background: #6eaef9;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            transition: all .2s ease-in-out; }
       .illness-container .illness-content .illness .title-content {
         width: 100%;
         display: flex;
@@ -2630,7 +2655,7 @@ footer {
             text-transform: uppercase;
             font-size: 40px;
             font-family: Montserrat-Light;
-            letter-spacing: 4px; }
+            letter-spacing: 2px; }
             @media screen and (max-width: 600px) {
               .illness-container .illness-content .illness .info p.p-info-2 {
                 font-size: 25px;
@@ -2652,6 +2677,56 @@ footer {
             @media screen and (max-width: 600px) {
               .illness-container .illness-content .illness .info p.p-info-5 {
                 margin-bottom: 16px; } }
+          .illness-container .illness-content .illness .info p.p-info-6 {
+            color: #ef2222;
+            margin-bottom: 0px;
+            text-transform: uppercase;
+            font-size: 32px;
+            font-family: Montserrat-Light;
+            letter-spacing: 2px;
+            line-height: 1; }
+            @media screen and (max-width: 600px) {
+              .illness-container .illness-content .illness .info p.p-info-6 {
+                font-size: 25px;
+                font-family: Montserrat-Light;
+                letter-spacing: 0; } }
+          .illness-container .illness-content .illness .info p.p-info-7 {
+            color: #126bf8;
+            margin-bottom: 0px;
+            text-transform: uppercase;
+            font-size: 32px;
+            font-family: Montserrat-Light;
+            letter-spacing: 2px; }
+            @media screen and (max-width: 600px) {
+              .illness-container .illness-content .illness .info p.p-info-7 {
+                font-size: 25px;
+                font-family: Montserrat-Light;
+                letter-spacing: 0; } }
+          .illness-container .illness-content .illness .info p.p-info-8 {
+            color: #ef2222;
+            margin-bottom: 0px;
+            text-transform: uppercase;
+            font-size: 30px;
+            font-family: Montserrat-Light;
+            letter-spacing: 2px;
+            line-height: 1; }
+            @media screen and (max-width: 600px) {
+              .illness-container .illness-content .illness .info p.p-info-8 {
+                font-size: 25px;
+                font-family: Montserrat-Light;
+                letter-spacing: 0; } }
+          .illness-container .illness-content .illness .info p.p-info-9 {
+            color: #126bf8;
+            margin-bottom: 0px;
+            text-transform: uppercase;
+            font-size: 30px;
+            font-family: Montserrat-Light;
+            letter-spacing: 2px; }
+            @media screen and (max-width: 600px) {
+              .illness-container .illness-content .illness .info p.p-info-9 {
+                font-size: 25px;
+                font-family: Montserrat-Light;
+                letter-spacing: 0; } }
           .illness-container .illness-content .illness .info p.p-space {
             font-size: 32px;
             margin-bottom: 0;

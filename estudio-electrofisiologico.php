@@ -184,10 +184,14 @@
                   <p class="p-quote-name">-Jhon Snow</p>
 
                   <hr class="hr-space" >
-
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin, turpis sed fringilla dapibus, ante tortor convallis metus, eget interdum nunc ligula at risus. Sed ut tempus ipsum. Proin non elit vulputate, rutrum tortor tristique, tempus nisl. Ut auctor varius lacus et condimentum. Proin et consequat quam. Pellentesque arcu eros, iaculis ut lorem at, tincidunt egestas augue. Donec vel diam quis odio blandit dignissim laoreet vitae velit. Vestibulum iaculis mi eros, in blandit justo facilisis ultrices. Aliquam erat volutpat. Sed tincidunt, urna vitae tempus convallis, erat lacus mattis velit, ut sollicitudin eros felis id libero. Fusce lacus libero, faucibus eget est vehicula, posuere fermentum tortor. Praesent volutpat rhoncus mi et mollis. Integer non congue mi, sit amet mollis tortor.</p>
-                  <p> Sed tincidunt, urna vitae tempus convallis, erat lacus mattis velit, ut sollicitudin eros felis id libero. Fusce lacus libero, faucibus eget est vehicula, posuere fermentum tortor. Praesent volutpat rhoncus mi et mollis. Integer non congue mi, sit amet mollis tortor.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin, turpis sed fringilla dapibus, ante tortor convallis metus, eget interdum nunc ligula at risus. Sed ut tempus ipsum. Proin non elit vulputate, rutrum tortor tristique, tempus nisl. Ut auctor varius lacus et condimentum. Proin et consequat quam. Pellentesque arcu eros, iaculis ut lorem at, tincidunt egestas augue. Donec vel diam quis odio blandit dignissim laoreet vitae velit</p>
+                  <p class="p-info-7">Arritmias</p>
+                  <p class="p-info-3">¿Qué es una arritmia Cardiaca?</p>
+                  <p>Una arritmia es cualquier alteración del ritmo normal del corazón.</p>
+                  <p>El corazón debe de estar latiendo entre 60 latidos por minuto en reposo y  100 latidos por minutos en actividad.</p>
+                  <p>Por lo tanto, las arritmias cardiacas se denominan aquellas que pueden alterar este ritmo del corazón.</p>
+                  <p>Se pueden dividir en dos grandes grupos...</p>
+                  <a href="arritmias"><button class="btn-ver-mas">VER MAS +</button></a>
+                   
               </div>
           </div>
           <div class="illness-social-media">

@@ -177,11 +177,15 @@
                   <p class="p-quote-main">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin, turpis sed fringilla dapibus, ante tortor convallis metus, eget interdum nunc ligula at risus. Sed ut tempus ipsum. Proin non elit vulputate, rutrum tortor tristique, tempus nisl.</p>
                   <p class="p-quote-name">-Jhon Snow</p>
 
-                  <hr class="hr-space" >
-
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin, turpis sed fringilla dapibus, ante tortor convallis metus, eget interdum nunc ligula at risus. Sed ut tempus ipsum. Proin non elit vulputate, rutrum tortor tristique, tempus nisl. Ut auctor varius lacus et condimentum. Proin et consequat quam. Pellentesque arcu eros, iaculis ut lorem at, tincidunt egestas augue. Donec vel diam quis odio blandit dignissim laoreet vitae velit. Vestibulum iaculis mi eros, in blandit justo facilisis ultrices. Aliquam erat volutpat. Sed tincidunt, urna vitae tempus convallis, erat lacus mattis velit, ut sollicitudin eros felis id libero. Fusce lacus libero, faucibus eget est vehicula, posuere fermentum tortor. Praesent volutpat rhoncus mi et mollis. Integer non congue mi, sit amet mollis tortor.</p>
-                  <p> Sed tincidunt, urna vitae tempus convallis, erat lacus mattis velit, ut sollicitudin eros felis id libero. Fusce lacus libero, faucibus eget est vehicula, posuere fermentum tortor. Praesent volutpat rhoncus mi et mollis. Integer non congue mi, sit amet mollis tortor.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin, turpis sed fringilla dapibus, ante tortor convallis metus, eget interdum nunc ligula at risus. Sed ut tempus ipsum. Proin non elit vulputate, rutrum tortor tristique, tempus nisl. Ut auctor varius lacus et condimentum. Proin et consequat quam. Pellentesque arcu eros, iaculis ut lorem at, tincidunt egestas augue. Donec vel diam quis odio blandit dignissim laoreet vitae velit</p>
+                  <hr class="hr-space">
+                  <p class="p-info-6">resincronizador</p>
+                  <p class="p-info-7">cardiaco</p>
+                  <p class="p-info-3">¿Qué es un Resincronizador Cardiaco?</p>
+                  <p>Es un dispositivo tipo marcapaso, que ayuda al corazón a que sincronice su latido para darle mar fuerza y mejorar la cantidad de sangre que sale del corazón a todo el cuerpo</p>
+                  <p class="p-info-3">¿Qué es Resincronizar?</p>
+                  <p>Se considera que el corazón cuando late normalmente, sus paredes se encuentran sincronizadas para contraerse al mismo tiempo, en algunos pacientes se pierde esta propiedad generando que el corazón...</p>
+                  <a href="resincronizador-cardiaco"><button class="btn-ver-mas">VER MAS +</button></a>
+                   
               </div>
           </div>
           <div class="illness-social-media">

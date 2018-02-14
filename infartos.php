@@ -196,10 +196,16 @@
                   <p class="p-quote-name">-Jhon Snow</p>
 
                   <hr class="hr-space" >
-
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin, turpis sed fringilla dapibus, ante tortor convallis metus, eget interdum nunc ligula at risus. Sed ut tempus ipsum. Proin non elit vulputate, rutrum tortor tristique, tempus nisl. Ut auctor varius lacus et condimentum. Proin et consequat quam. Pellentesque arcu eros, iaculis ut lorem at, tincidunt egestas augue. Donec vel diam quis odio blandit dignissim laoreet vitae velit. Vestibulum iaculis mi eros, in blandit justo facilisis ultrices. Aliquam erat volutpat. Sed tincidunt, urna vitae tempus convallis, erat lacus mattis velit, ut sollicitudin eros felis id libero. Fusce lacus libero, faucibus eget est vehicula, posuere fermentum tortor. Praesent volutpat rhoncus mi et mollis. Integer non congue mi, sit amet mollis tortor.</p>
-                  <p> Sed tincidunt, urna vitae tempus convallis, erat lacus mattis velit, ut sollicitudin eros felis id libero. Fusce lacus libero, faucibus eget est vehicula, posuere fermentum tortor. Praesent volutpat rhoncus mi et mollis. Integer non congue mi, sit amet mollis tortor.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin, turpis sed fringilla dapibus, ante tortor convallis metus, eget interdum nunc ligula at risus. Sed ut tempus ipsum. Proin non elit vulputate, rutrum tortor tristique, tempus nisl. Ut auctor varius lacus et condimentum. Proin et consequat quam. Pellentesque arcu eros, iaculis ut lorem at, tincidunt egestas augue. Donec vel diam quis odio blandit dignissim laoreet vitae velit</p>
+                  <p class="p-info-6">hipertension</p>
+                  <p class="p-info-7">arterial</p>
+                  <p class="p-info-3">¿Qué es la hipertensión arterial?</p>
+                  <p>Es cuando la presión en las arterias se eleva mas de las cifras normales y se mantiene elevada. </p>
+                  <p>Las cifras normales son:</p>
+                  <p>120 / 80 mmHg</p>
+                  <p class="p-info-3">¿Cómo se si soy hipertenso?</p>
+                  <p>El diagnóstico de la presión arterial elevada se realiza al tomar 3 medidas separadas al menos 24 hrs,  si el promedio de las tres es mayor de 120/80 , se considera hipertensa a la persona. </p>
+                  <p>Hay otro método que consiste en poner un Monitor Ambulatorio...</p>
+                  <a href="hipertension-arterial"><button class="btn-ver-mas">VER MAS +</button></a>
               </div>
           </div>
           <div class="illness-social-media">

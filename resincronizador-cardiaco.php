@@ -163,11 +163,15 @@
                   <p class="p-quote-main">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin, turpis sed fringilla dapibus, ante tortor convallis metus, eget interdum nunc ligula at risus. Sed ut tempus ipsum. Proin non elit vulputate, rutrum tortor tristique, tempus nisl.</p>
                   <p class="p-quote-name">-Jhon Snow</p>
 
-                  <hr class="hr-space" >
-
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin, turpis sed fringilla dapibus, ante tortor convallis metus, eget interdum nunc ligula at risus. Sed ut tempus ipsum. Proin non elit vulputate, rutrum tortor tristique, tempus nisl. Ut auctor varius lacus et condimentum. Proin et consequat quam. Pellentesque arcu eros, iaculis ut lorem at, tincidunt egestas augue. Donec vel diam quis odio blandit dignissim laoreet vitae velit. Vestibulum iaculis mi eros, in blandit justo facilisis ultrices. Aliquam erat volutpat. Sed tincidunt, urna vitae tempus convallis, erat lacus mattis velit, ut sollicitudin eros felis id libero. Fusce lacus libero, faucibus eget est vehicula, posuere fermentum tortor. Praesent volutpat rhoncus mi et mollis. Integer non congue mi, sit amet mollis tortor.</p>
-                  <p> Sed tincidunt, urna vitae tempus convallis, erat lacus mattis velit, ut sollicitudin eros felis id libero. Fusce lacus libero, faucibus eget est vehicula, posuere fermentum tortor. Praesent volutpat rhoncus mi et mollis. Integer non congue mi, sit amet mollis tortor.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin, turpis sed fringilla dapibus, ante tortor convallis metus, eget interdum nunc ligula at risus. Sed ut tempus ipsum. Proin non elit vulputate, rutrum tortor tristique, tempus nisl. Ut auctor varius lacus et condimentum. Proin et consequat quam. Pellentesque arcu eros, iaculis ut lorem at, tincidunt egestas augue. Donec vel diam quis odio blandit dignissim laoreet vitae velit</p>
+                  <hr class="hr-space">
+                  <p class="p-info-8">estudio</p>
+                  <p class="p-info-9">electrofisiologico</p>
+                  <p class="p-info-3">¿Qué es y para qué sirve un Estudio Electrofisiológico?<p>
+                  <p>Es un procedimiento que permite  estudiar las alteraciones del ritmo cardiaco (arritmias). </p>
+                  <p>Hay dos tipos de Arritmias las lentas llamadas Bradicardias y las rápidas llamadas taquicardias.</p>
+                  <p>Ambas se pueden estudiar en este procedimiento, sin embargo, es mas indicado para el tratamiento de las taquicardias...</p>
+                  <a href="estudio-electrofisiologico"><button class="btn-ver-mas">VER MAS +</button></a>
+                   
               </div>
           </div>
           <div class="illness-social-media">
