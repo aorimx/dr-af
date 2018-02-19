@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Dr. Arturo Flores | Servicios</title>
+  <title>Dr. Arturo Flores | Enfermedades</title>
   <link rel="icon" type="image/png" href="assets/images/favicon-01.png">
   <!-- [#TODO] Dont forget to update the FAVICON IMAGES in the next route -->
   <!-- <link rel="icon" type="image/png" href="assets/images/favicon-180x180.png" sizes="128x128"> -->
@@ -33,12 +33,12 @@
             </li>
           </a>
           <a href="servicios">
-            <li class="active-nav">
+            <li>
               SERVICIOS
             </li>
           </a>
           <a href="enfermedades">
-            <li>
+            <li class="active-nav">
               ENFERMEDADES
             </li>
           </a>
@@ -74,26 +74,16 @@
      <section class="">
         <div class="services-container">
           <div class="services-content"> 
-              <div class="j-wrap">
-                <div class="services-title-content">
-                  <h2 class="services-h2">SERVICIOS</h2>
-                </div>
-            </div>
-
            
                 <div class="service">
                   <div class="line">
                       <p class="p-space">&nbsp;</p><p class="p-space">&nbsp;</p><hr class="hr-space" >
                   </div>
                   <div class="info">
-                      <p class="p-info-1">consulta</p>
-                      <p class="p-info-2">general Cardiología</p>
-
-                      <p class="p-info">infartos // angina de pecho</p>
-                      <p class="p-info">insufiencia cardiaca</p>
-                      <p class="p-info">hipertensiòn arterial</p>
-                      <p class="p-info">arritmias</p>
-                      <p class="p-info">valoración preoperatoria</p>
+                     <h2 class="service-title-2">DISPOSITIVOS</h2>
+                     <a href="marcapaso"><p class="p-info-3">MARCAPASO</p></a>
+                     <a href="cardiodesfibrilador"><p class="p-info-3">CARDIODESFIBRILADOR</p></a>
+                     <a href="resincronizador-cardiaco"><p class="p-info-3">RESINCRONIZADOR CARDIACO</p></a>
                   </div>
                 </div>
         
@@ -103,63 +93,14 @@
                       <p class="p-space">&nbsp;</p><p class="p-space">&nbsp;</p><hr class="hr-space" >
                   </div>
                   <div class="info">
-                      <p class="p-info-1">manejo integral</p>
-                      <p class="p-info-2">de arritmias cardiacas</p>
-
-                      <p class="p-info">estudio electrofisiológico</p>
-                      <p class="p-info">ablación arritmias cardiacas</p>
-                      <p class="p-info">tratamiento especializado</p>
-                      <p class="p-info">seguimiento y vigilancia</p>
+                     <h2 class="service-title-3">GENERALES</h2>
+                     <a href="estudio-electrofisiologico"><p class="p-info-3">ESTUDIO ELECTROFISIOLOGICO</p></a>
+                     <a href="arritmias"><p class="p-info-3">ARRITMIAS</p></a>
+                     <a href="infartos"><p class="p-info-3">INFARTOS</p></a>
+                     <a href="hipertension-arterial"><p class="p-info-3">HIPERTENSIÓN ARTERIAL</p></a>
+                     <a href="insuficiencia-cardiaca"><p class="p-info-3">INSUFICIENCIA CARDIACA</p></a>
                   </div>
                 </div>
-
-                
-                <div class="service">
-                  <div class="line">
-                      <p class="p-space">&nbsp;</p><hr class="hr-space" >
-                  </div>
-                  <div class="info">
-                      <p class="p-info-2">marcapasos</p>
-
-                      <p class="p-info">implantación</p>
-                      <p class="p-info">programación</p>
-                      <p class="p-info">seguimiento y vigilancia</p>
-                  </div>
-                </div>
-
-
-                <div class="service">
-                  <div class="line">
-                      <p class="p-space">&nbsp;</p><p class="p-space">&nbsp;</p><hr class="hr-space" >
-                  </div>
-                  <div class="info">
-                      <p class="p-info-1">desfibrilador</p>
-                      <p class="p-info-2">automatico implantable</p>
-
-                      <p class="p-info">implantación</p>
-                      <p class="p-info">programación</p>
-                      <p class="p-info">seguimiento y vigilancia</p>
-                      
-                  </div>
-                </div>
-
-
-
-                <div class="service">
-                    <div class="line">
-                        <p class="p-space">&nbsp;</p><p class="p-space">&nbsp;</p><hr class="hr-space" >
-                    </div>
-                    <div class="info">
-                        <p class="p-info-1">resincronizador</p>
-                        <p class="p-info-2">cardiaco</p>
-  
-                        <p class="p-info">implantación</p>
-                        <p class="p-info">programación</p>
-                        <p class="p-info">seguimiento y vigilancia</p>
-                    </div>
-                  </div>
-
-
           </div>
         </div>
      </section>

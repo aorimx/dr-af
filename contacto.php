@@ -36,19 +36,11 @@
               SERVICIOS
             </li>
           </a>
-          <li class="sub-menu-content">
+          <a href="enfermedades">
+            <li>
               ENFERMEDADES
-              <ul class="ul-sub-menu">
-                <li><a href="marcapaso">Marcapaso</a></li>
-                <li><a href="cardiodesfibrilador">Cardiodesfibrilador</a></li>
-                <li><a href="resincronizador-cardiaco">Resincronizador cardiaco</a></li>
-                <li><a href="estudio-electrofisiologico">Estudio Electrorisiológico</a></li>
-                <li><a href="arritmias">Arritmias</a></li>
-                <li><a href="infartos">Infarto</a></li>
-                <li><a href="hipertension-arterial">Hipertensión arterial</a></li>
-                <li><a href="insuficiencia-cardiaca">Insuficiencia cardiaca</a></li>
-              </ul>
-          </li>
+            </li>
+          </a>
           <a href="contacto">
             <li class="active-nav">
               CONTACTO

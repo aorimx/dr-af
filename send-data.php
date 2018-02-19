@@ -160,10 +160,10 @@ $mensaje ='<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-micro
 $mensaje = wordwrap($mensaje, 70, "\r\n");
 $cabeceras = 'MIME-Version: 1.0' . "\r\n";
 $cabeceras .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-$cabeceras .= 'From: DrArturoFlores';
+$cabeceras .= 'From:drarturoflores';
 // Enviamos el email
 
-mail($victor, 'Consulta Dr Arturo Flores', $mensaje, $cabeceras);
+mail($victor, 'ConsultaDrArturoFlores', $mensaje, $cabeceras);
 
 echo "Datos ENVIADO...";
 ?>

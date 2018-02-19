@@ -718,6 +718,46 @@ img {
   padding: 16px 48px 12px 48px;
   background: #ef2222; }
 
+.service-title-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  width: auto;
+  font-family: 'Montserrat-Light';
+  color: #126bf8;
+  font-size: 24px;
+  letter-spacing: 4px;
+  margin-bottom: 48px;
+  padding: 16px 48px 12px 48px;
+  background: #ffffff;
+  border: 2px solid #126bf8; }
+  @media screen and (max-width: 600px) {
+    .service-title-2 {
+      align-self: center;
+      font-size: 22px;
+      padding: 16px 32px 12px 32px; } }
+
+.service-title-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  width: auto;
+  font-family: 'Montserrat-Light';
+  color: #ef2222;
+  font-size: 24px;
+  letter-spacing: 4px;
+  margin-bottom: 48px;
+  padding: 16px 48px 12px 48px;
+  background: #ffffff;
+  border: 2px solid #ef2222; }
+  @media screen and (max-width: 600px) {
+    .service-title-3 {
+      align-self: center;
+      font-size: 22px;
+      padding: 16px 32px 12px 32px; } }
+
 .hero-image {
   background-image: url("../images/banners/banner-home.png");
   height: 64vh;
@@ -2469,6 +2509,8 @@ footer {
     margin-top: 88px; }
     @media screen and (max-width: 600px) {
       .services-container .services-content .service {
+        margin-top: 16px;
+        margin-bottom: 64px;
         text-align: center;
         padding-left: 20px;
         padding-right: 20px; } }
@@ -2521,6 +2563,11 @@ footer {
             line-height: 1.1;
             letter-spacing: 1px;
             text-align: center; } }
+      .services-container .services-content .service .info .p-info-3 {
+        color: #808080;
+        font-family: Montserrat-Regular;
+        font-size: 18px;
+        margin-bottom: 24PX; }
 
 .illness-container {
   width: 100%;

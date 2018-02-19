@@ -53,8 +53,8 @@
                  </div>
               </div>
               <div class="redes">
-                 <a href=""><img src="assets/images/footer/facebook.png" alt=""></a>
-                 <a href=""><img src="assets/images/footer/instagram.png" alt=""></a>
+                 <a href="https://www.facebook.com/arturo.floresanguiano" target="_blank"><img src="assets/images/footer/facebook.png" alt=""></a>
+                 <a href="https://www.instagram.com/dr_mcarthur/" target="_blank"><img src="assets/images/footer/instagram.png" alt=""></a>
               </div>
            </div>
            <div class="ft-copyright-content">
